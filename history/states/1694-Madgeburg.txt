@@ -1,0 +1,23 @@
+state={
+	id=1694
+	name="STATE_1694"
+	provinces={
+		8375 8415 11731 11765 11849 20634 
+	}
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRS
+		add_core_of = SXP
+        victory_points = {
+            20634 20
+        }
+    }
+	manpower=447062
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

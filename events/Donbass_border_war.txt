@@ -1,0 +1,39 @@
+add_namespace = donbass_war
+
+country_event = {
+	id = donbass_war.1
+	title = "Succesful operation"
+	desc = "Our forces managed to break through enemy lines forcing them to retreat. We won't push further for now but our soldiers did get some experience"
+
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "Another victory for us"
+		army_experience = 30
+		air_experience = 15
+		add_war_support = 0.05
+	}
+}
+
+country_event = {
+	id = donbass_war.2
+	title = "Operation failed"
+	desc = "Even though we were obviously better armed and prepared, our enemies got lucky. We've been pushed back and lost some of our people, but we'll never let that happen again"
+
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "They won't be that lucky next time"
+        add_war_support = -0.05
+		add_manpower = -1000
+		army_experience = 15
+		air_experience = 10
+		
+
+		hidden_effect = { 
+			
+		}
+	}
+}

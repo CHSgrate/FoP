@@ -1,0 +1,24 @@
+
+state={
+	id=1975
+	name="STATE_1975"
+	provinces={
+		12818 12829 12864 
+	}
+	history={
+		owner = GER #POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SLS
+		add_core_of = UPS
+        victory_points = {
+            12818 10
+        }
+  	}
+	manpower=183054
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

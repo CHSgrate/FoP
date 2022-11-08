@@ -1,0 +1,25 @@
+
+state={
+	id=301
+	name="STATE_301"
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+		add_core_of = PMR 
+		add_core_of = WSP
+		victory_points = {
+			748 5 #Schneidemühl
+		}
+	}
+	provinces={
+		748 3349 11344 11399 
+	}
+	manpower=53349
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

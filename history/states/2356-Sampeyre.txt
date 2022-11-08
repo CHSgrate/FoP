@@ -1,0 +1,24 @@
+state={
+	id=2356
+	name="STATE_2356"
+	history = {
+		owner = GER #ITA
+		add_core_of = ITA
+		add_core_of = PIE
+		add_core_of = PRV
+		add_core_of = OCC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2290 1
+		}
+	}
+	provinces={
+		2290 14529 20529 
+	}
+	manpower=51050
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

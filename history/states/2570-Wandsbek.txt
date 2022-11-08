@@ -1,0 +1,23 @@
+
+state={
+	id=2570
+	name="STATE_2570"
+	provinces={
+		11192 18643 
+	}
+	history={
+	    owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+		add_core_of = SLH
+		add_core_of = HLS
+		add_core_of = HAM
+    }
+	manpower=254758
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

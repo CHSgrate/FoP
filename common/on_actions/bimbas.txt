@@ -1,0 +1,15 @@
+on_actions = {
+      on_annex = {
+        effect = { 
+            if = {
+				limit = {
+					original_tag = DPR
+					has_capitulated = yes
+				}
+            AFU = {
+                add_ideas = AFU_bezlad
+            }
+        }
+    }
+  }
+}

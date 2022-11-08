@@ -1,0 +1,199 @@
+add_namespace = afu
+
+country_event = {
+	id = afu.1
+	title = "On our own"
+	desc = "After the distabilisation and escalation of civil unrest in Ukraine, we weren't able to contact the government, and aren't sure what is even happening. However, we do know that right now Ukraine is threatened by separatist menace. We must fight on our own until we can re=establish contact with Kyiv"
+
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "We have to start preparing"
+		add_political_power = 150
+	}
+}
+
+country_event = {
+	id = afu.2
+	title = "Contacting the government"
+	desc = "After a couple of weeks we finally managed to establish a stable contact with Kyiv. From what we've been told, political situation is still uncertain, so we shouldn't rely on the Kyiv administration too much. We don't want to get our hands dirty in their political games. "
+
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "Let's see what we can do."
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = afu.3
+	title = "Asessing the situation"
+	desc = "Our high command and intelligence predicts that the colder phase of the Donbass conflict might soon be over. The was with the Russian proxies is on the horizon. It is time that we asess the situation and prepare ourselves to not only deffend against the upcoming onslaught, but also try to end the long - lasting conflict on our terms"
+
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "Sooner or later we'll have to face the storm that is coming."
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = afu.4
+	title = "Planning the deffence"
+	desc = "Our military intelligence suggests that the forces of the separatists are doing manuevers and actively preparing to strike us in the near future. The clock is slowly ticking. Our high command has prepared a plan of a concentrated organized deffence in the key fortified areas,with the continuous preparations for a counterattack."
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+	name = "Set in motion."
+	2094 = {
+			add_building_construction = { type = bunker level = 3 province = 13674 instant_build = yes }
+			add_building_construction = { type = bunker level = 1 province = 3710 instant_build = yes }
+			}
+	2093 = {
+	add_building_construction = { type = bunker level = 4 province = 13845 instant_build = yes }
+       }
+    2306 = {
+	add_building_construction = { type = bunker level = 2 province = 965 instant_build = yes }
+	add_building_construction = { type = bunker level = 2 province = 5237 instant_build = yes }
+	add_building_construction = { type = bunker level = 2 province = 2275 instant_build = yes }  
+    }
+    2307 = {
+	add_building_construction = { type = bunker level = 3 province = 3026 instant_build = yes }
+	add_building_construction = { type = bunker level = 4 province = 13220 instant_build = yes }
+	add_building_construction = { type = bunker level = 3 province = 865 instant_build = yes }
+	add_building_construction = { type = bunker level = 2 province = 8361 instant_build = yes }
+	 }
+    2030 = {
+	add_building_construction = { type = bunker level = 2 province = 13235 instant_build = yes }
+       } 
+ }
+}
+country_event = {
+	id = afu.5
+	title = "Helping ZSU"
+	desc = "Litak letyt',budyem vsikh bombyt' "
+
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "Vedmedi balalaiki"
+		AFU = {
+		add_ideas = AFU_support_UKR
+	 ai_chance = {
+      factor = 70
+    }
+  }
+}
+	option = {
+		name = "Hello Biden,its Zelensky,we need faiv billion rockets to bomb donetsk children.Slava Ukraini."
+		add_political_power = -50
+		add_stability = -0.03
+	 ai_chance = {
+      factor = 30
+    }
+  }
+}
+country_event = {
+	id = afu.6
+	title = "Helping ZSU"
+	desc = "Holosuj za Poroshenka,bo blyat Putin napade."
+
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "Syvocholyj hetman nas povede!"
+		AFU = {
+		add_ideas = AFU_support_PRH
+	 ai_chance = {
+      factor = 60
+    }
+  }
+}
+	option = {
+		name = "72% procentiv dovboyoby."
+		add_political_power = -50
+		add_stability = -0.03
+	 ai_chance = {
+      factor = 40
+    }
+  }
+}
+country_event = {
+	id = afu.7
+	title = "Helping ZSU"
+	desc = "Oshiete, oshiete yo sono shikumi wo.Boku no naka ni dare ga iru no?Kowareta, kowareta yo kono sekai deKimi ga warau nanimo miezu ni."
+
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "Doryoku, mirai, a beautiful star!"
+		AFU = {
+		add_equipment_to_stockpile = {
+        type = support_equipment
+        amount = 500
+		}
+		add_equipment_to_stockpile = {
+		type = motorized_equipment_1 
+        amount = 150
+		}
+		add_equipment_to_stockpile = {
+		type = mechanized_equipment_1
+        amount = 20
+		}
+		add_equipment_to_stockpile = {
+		type = modern_tank_equipment
+		amount = 2
+      }
+	 ai_chance = {
+      factor = 80
+    }
+  }
+}
+
+	option = {
+		name = "Seid ihr das Essen? Nein wir sind die Jäger!"
+		add_political_power = -50
+		add_stability = -0.03
+	 ai_chance = {
+      factor = 20
+    }
+  }
+}
+country_event = {
+	id = afu.8
+	title = "Helping ZSU"
+	desc = "Arsen Avakov razom z namy."
+
+	picture = GFX_report_event_carp_rada
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "Arsen Avakov v kozhnim i z nas"
+		AFU = {
+		add_ideas = AFU_support_PRH
+	 ai_chance = {
+      factor = 60
+    }
+  }
+}
+	option = {
+		name = "Avakov chort."
+		add_political_power = -50
+		add_stability = -0.03
+	 ai_chance = {
+      factor = 40
+    }
+  }
+}
+
+ 
+

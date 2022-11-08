@@ -1,0 +1,22 @@
+
+state={
+	id=623
+	name="Zaporizhia"
+	provinces={
+		3340 3684 4987 5469 6139 13551 13582 
+	}
+	history = {
+		victory_points = { 3340 40 }
+                victory_points = { 13551 20 }
+		victory_points = { 5469 10 }
+		owner = ZAP
+		add_core_of = ZAP
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=663197
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

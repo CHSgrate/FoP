@@ -1,0 +1,22 @@
+
+state={
+	id=2054
+	name="Irpin'"
+	provinces={
+		947 3709 4320 4731 7169 
+	}
+	history = {
+		victory_points = { 4731 15 }
+                victory_points = { 3709 8 }
+                victory_points = { 7169 3 }
+		owner = KYI
+		add_core_of = KYI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=362382
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

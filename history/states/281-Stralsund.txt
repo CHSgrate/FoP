@@ -1,0 +1,25 @@
+
+state={
+	id=281
+	name="STATE_281"
+		history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+			10941 = { naval_base = 1 }
+		}
+		add_core_of = PRS
+		add_core_of = PMR 
+		victory_points = {
+			10941 5 #Stralsund
+		}
+    }
+	provinces={
+		3771 4935 10941 10957 10992 10997 11032 20557 20558 
+	}
+	manpower=141958
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

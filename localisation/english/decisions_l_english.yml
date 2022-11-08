@@ -1,0 +1,45 @@
+﻿l_english:
+ donbass_war:0 "Donbass War"
+ donbass_war_desc:0 "After the fall of the central government, situation in eastern regions has been escalating, it's obvious now that active phase of war will begin in the following months, we must do everything in order to come out on top."
+ # DNR DECISIONS
+  request_russian_weapons:0 "Request Russian Equipment"
+
+  request_russian_infantry_equipment:0 "Request Russian Infantry Equipment"
+  request_russian_artillery:0 "Request Russian Artillery"
+  request_russian_trucks:0 "Request Russian Trucks"
+  request_russian_anti_air:0 "Request Russian Anti Air"
+  request_russian_light_tanks:0 "Request Russian Light Tanks"
+
+  request_russian_volunteers:0 "Request Russian Volunteers"
+  send_recruiters_to_the_volgograd_oblast:0 "Request Volunteers from the Volgograd Oblast"
+  send_recruiters_to_the_rostov_oblast:0 "Request Volunteers from the Rostov Oblast"
+  send_recruiters_to_the_voronezh_oblast:0 "Request Volunteers from the Voronezh Oblast"
+
+  opening_the_warehouses:0 "Open Old Warehouses"
+
+  search_for_a_warehouse_in_donetsk:0 "Search for a Warehouse in Donets'k"
+  search_for_a_warehouse_in_horlivka:0 "Search for a Warehouse in Horlivka"
+  search_for_a_warehouse_in_torez:0 "Search for a Warehouse in Torez"
+  search_for_a_warehouse_in_harczyk_i_ilovajsk:0 "Search for a Warehouse in Harcyz'k i Ilovajs'k"
+  search_for_a_warehouse_in_amvrosijivka:0 "Search for a Warehouse in Amvrosijivka"
+  search_for_a_warehouse_in_novoazovsk:0 "Search for a Warehouse in Novoazovs'k"
+
+  mobilize_the_youth_and_reserves:0 "Mobilize The Youth"
+  mobilize_the_youth_and_reserves_desc:0 ""
+
+  mobilized_the_youth_in_luhansk:0 "Mobilize the Youth in Luhans'k"
+  mobilized_the_youth_in_alchevsk:0 "Mobilize the Youth in Alchevs'k"
+  mobilized_the_youth_in_antracyt:0 "Mobilize the Youth in Antracyt"
+  mobilized_the_youth_in_novoazovsk:0 "Mobilize the Youth in Novoazovs'k"
+  mobilized_the_youth_in_amvrosijivka:0 "Mobilize the Youth in Amvrosijivka"
+  mobilized_the_youth_in_harczyk_i_ilovajsk:0 "Mobilize the Youth in Harcyz'k i Ilovajs'k"
+  mobilized_the_youth_in_torez:0 "Mobilize the Youth in Torez"
+  mobilized_the_youth_in_horlivka:0 "Mobilize the Youth in Horlivka"
+  mobilized_the_youth_in_donetsk:0 "Mobilize the Youth in Donets'k"
+  dnr.8.t:0 "Warehouse found"
+  dnr.8.d:0 ""
+  dnr.8.a:0 "Open It Already"
+
+  dnr.9.t:0 "No Warehouses were found in the area"
+  dnr.9.d:0 ""
+  dnr.9.a:0 "Damn i

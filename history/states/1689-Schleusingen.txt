@@ -1,0 +1,24 @@
+
+state={
+	id=1689
+	name="STATE_1689"
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRS
+		add_core_of = SXP
+		victory_points = {
+			12479 2 #Suhl
+		}
+    }
+	provinces={
+		12479 18531 
+	}
+	manpower=86125
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+
+		ZAK_hungarian_influence = {
+			picture = ZAK_hungarian_influence
+			modifier = {
+				political_power_gain = -0.3
+                                consumer_goods_factor = -0.02
+                                stability_factor = -0.1
+
+			}
+		}
+
+		ZAK_local_security_service = {
+			picture = ZAK_local_security_service
+			modifier = {
+				decryption = 1
+                encryption = 1
+                operative_slot = 1
+                civilian_intel_to_others = -30
+                intelligence_agency_defense = 0.2
+                stability_factor = 0.05
+
+			}
+		}
+
+		ZAK_svynohryusyny = {
+			picture = ZAK_svynohryusyny
+			modifier = {
+				political_power_gain = -0.05
+
+			}
+		}
+	}
+}

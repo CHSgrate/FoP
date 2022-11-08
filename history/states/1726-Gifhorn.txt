@@ -1,0 +1,23 @@
+state={
+	id=1726
+	name="STATE_1726"
+	provinces={
+		7241 9031 11558 11621 11719 20676 
+	}
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRS
+		add_core_of = HNV
+        victory_points = {
+            11719 10 #Wolfsburg
+        }
+    }
+	manpower=71335
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = pastoral
+}

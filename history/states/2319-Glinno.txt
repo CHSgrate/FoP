@@ -1,0 +1,23 @@
+state={
+	id=2319
+	name="Hlynne"
+	provinces={
+		4707 7818 12061 
+	}
+	history={
+		owner = RIV
+		add_core_of = RIV
+                victory_points = { 12061 4 }
+		buildings = {
+			infrastructure = 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower=11000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=538
+	name="STATE_538"
+	history={
+		owner = GER #FRA
+		add_core_of = FRA
+		add_core_of = LOR
+        victory_points = {
+            9248 2 #Verdun
+        }
+		buildings = {
+			infrastructure = 4
+		}
+    }
+	provinces={
+		4400 9248 12945 19851 
+	}
+	manpower=97605
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

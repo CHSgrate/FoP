@@ -1,0 +1,19 @@
+state={
+	id=2425
+	name="STATE_2425"
+	provinces={
+		1772 2473 3075 3470 5781 12408 
+	}
+	history = {
+		owner = GER #SOV
+		add_core_of = SOV
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=151010
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

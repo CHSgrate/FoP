@@ -1,0 +1,23 @@
+
+state={
+	id=1668
+	name="STATE_1668"
+
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+		add_core_of = SLS
+	}
+
+	provinces={
+		332 11877 
+	}
+	manpower=53378
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

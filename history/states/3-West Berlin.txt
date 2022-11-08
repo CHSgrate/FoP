@@ -1,0 +1,22 @@
+
+state={
+	id=3
+	name="STATE_3"
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRS
+		add_core_of = BRN
+		add_core_of = BRL
+    }
+	provinces={
+		11654 11711 
+	}
+	manpower=1100983
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = metropolis
+}

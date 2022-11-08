@@ -1,0 +1,23 @@
+
+state={
+	id=1270
+	name="Berezhany"
+	provinces={
+		2294 6367 7354 12961 13108 13219 13404 
+	}
+	history={
+		owner = GAL
+		add_core_of = GAL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TER
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower=238549
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+}

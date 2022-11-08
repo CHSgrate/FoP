@@ -1,0 +1,841 @@
+donbass_war = {
+
+	"Time until escalation" = {
+
+		icon = GFX_decision_generic_military
+
+		available = {
+			always = no
+		}
+
+		activation = {
+        AFU = {has_country_flag = part_of_war}
+    }
+	is_good = no
+	days_mission_timeout = 180
+
+		visible = {
+			always = yes
+			tag = AFU
+			tag = DPR
+			tag = LPR
+		
+		}
+
+		fire_only_once = yes
+		cost = 0
+
+		timeout_effect = { AFU = { declare_War_on = { target = DPR type = annex_everything}}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	}
+	}
+
+afu_mobilization = {		
+	dopomoga = {		
+
+		#icon = GFX_ZAK_rada_election
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = { has_completed_focus = AFU_negotiate_with_zaporizhia		
+		}
+		
+		fire_only_once = yes		
+		days_re_enable = 25	
+
+		visible = {	has_completed_focus = AFU_negotiate_with_zaporizhia		
+		}		
+
+		cost = 100
+
+
+		complete_effect = {
+		
+				add_equipment_to_stockpile = { type = infantry_equipment_1
+				amount = 1000
+				producer = AFU
+			}
+			#custom_effect_tooltip = "DECISION_EFFECT_YAY"
+			hidden_effect = {}
+		}
+		ai_will_do = {	
+			factor = 0			
+		}
+	}
+	
+	dopomoga2 = {		
+
+		#icon = GFX_ZAK_rada_election
+
+		available = { has_completed_focus = AFU_take_what_we_can		
+		}
+		
+		fire_only_once = yes		
+		days_re_enable = 5	
+
+		visible = {	has_completed_focus = AFU_take_what_we_can	
+		}		
+
+		cost = 100
+
+
+		complete_effect = {
+		
+				add_equipment_to_stockpile = { type = infantry_equipment_1
+				amount = 2000
+				producer = AFU
+			}
+			
+			add_equipment_to_stockpile = { type = artillery_equipment_1
+				amount = 500
+				producer = AFU
+			}
+			#custom_effect_tooltip = "DECISION_EFFECT_YAY"
+			hidden_effect = {}
+		}
+		ai_will_do = {	
+			factor = 0			
+		}
+	}
+	
+	dopomoga3 = {		
+
+		#icon = GFX_ZAK_rada_election
+
+		available = { has_completed_focus = AFU_open_the_warehouses		
+		}
+		
+		fire_only_once = yes		
+		days_re_enable = 5	
+
+		visible = {		has_completed_focus = AFU_open_the_warehouses
+		}		
+
+		cost = 100
+
+
+		complete_effect = {
+		
+				add_equipment_to_stockpile = { type = motorized_equipment_1
+				amount = 500
+				producer = AFU
+			}
+
+			#custom_effect_tooltip = "DECISION_EFFECT_YAY"
+			hidden_effect = {}
+		}
+		ai_will_do = {	
+			factor = 0			
+		}
+	}
+	
+	dopomoga4 = {		
+
+		#icon = GFX_ZAK_rada_election
+
+		available = { has_completed_focus = AFU_open_the_warehouses		
+		}
+		
+		fire_only_once = yes		
+		days_re_enable = 5	
+
+		visible = {		has_completed_focus = AFU_open_the_warehouses
+		}		
+
+		cost = 100
+
+
+		complete_effect = {
+		
+				add_equipment_to_stockpile = { type = support_equipment_1
+				amount = 300
+				producer = AFU
+			}
+
+			#custom_effect_tooltip = "DECISION_EFFECT_YAY"
+			hidden_effect = {}
+		}
+		ai_will_do = {	
+			factor = 0			
+		}
+	}
+	
+	
+}
+
+request_russian_weapons = {
+
+	request_russian_infantry_equipment = {
+		icon = generic_industry
+
+		allowed = {
+		}
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+   
+			   	amount = 1500
+   
+			   	producer = DPR
+			}
+		}
+	}
+
+	request_russian_artillery = {
+		icon = generic_industry
+
+		allowed = {
+		}
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+   
+			   	amount = 250
+   
+			   	producer = DPR
+			}
+		}
+	}
+
+	request_russian_trucks = {
+		icon = generic_industry
+
+		allowed = {
+		}
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+   
+			   	amount = 250
+   
+			   	producer = DPR
+			}
+		}
+	}
+
+	request_russian_anti_air = {
+		icon = generic_industry
+
+		allowed = {
+		}
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = anti_air_equipment
+   
+			   	amount = 100
+   
+			   	producer = DPR
+			}
+		}
+	}
+
+	request_russian_anti_air = {
+		icon = generic_industry
+
+		allowed = {
+		}
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = anti_air_equipment
+   
+			   	amount = 100
+   
+			   	producer = DPR
+			}
+		}
+	}
+
+	request_russian_light_tanks = {
+		icon = generic_industry
+
+		allowed = {
+		}
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = light_tank_chassis
+   
+			   	amount = 25
+   
+			   	producer = DPR
+			}
+		}
+	}
+}
+
+request_russian_volunteers = {
+	send_recruiters_to_the_rostov_oblast = {
+		icon = generic_political_discourse
+
+		allowed = {
+		}
+
+		cost = 75
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			#consumer_goods_factor = 0.05
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					add_manpower = 1000
+				}
+
+				30 = {
+					add_manpower = 2000
+				}
+
+				20 = {
+					add_manpower = 3000
+				}
+			}
+		}
+	}
+
+	send_recruiters_to_the_volgograd_oblast = {
+		icon = generic_political_discourse
+
+		allowed = {
+		}
+
+		cost = 75
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			#consumer_goods_factor = 0.05
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					add_manpower = 1000
+				}
+
+				30 = {
+					add_manpower = 2000
+				}
+
+				20 = {
+					add_manpower = 3000
+				}
+			}
+		}
+	}
+
+	send_recruiters_to_the_voronezh_oblast = {
+		icon = generic_political_discourse
+
+		allowed = {
+		}
+
+		cost = 75
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			#consumer_goods_factor = 0.05
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					add_manpower = 1000
+				}
+
+				30 = {
+					add_manpower = 2000
+				}
+
+				20 = {
+					add_manpower = 3000
+				}
+			}
+		}
+	}
+}
+
+
+opening_the_warehouses = {
+	
+
+	
+
+	search_for_a_warehouse_in_torez = {
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2028
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			#consumer_goods_factor = 0.05
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					country_event = dnr.8
+				}
+
+				50 = {
+					country_event = dnr.9
+				}
+			}
+		}
+	}
+
+	search_for_a_warehouse_in_harczyk_i_ilovajsk = {
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 557
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			#consumer_goods_factor = 0.05
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					country_event = dnr.8
+				}
+
+				50 = {
+					country_event = dnr.9
+				}
+			}
+		}
+	}
+
+	search_for_a_warehouse_in_amvrosijivka = {
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2096
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			#consumer_goods_factor = 0.05
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					country_event = dnr.8
+				}
+
+				50 = {
+					country_event = dnr.9
+				}
+			}
+		}
+	}
+
+	search_for_a_warehouse_in_katyk = {
+		icon = generic_decision
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2310
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					country_event = dnr.8
+				}
+
+				50 = {
+					country_event = dnr.9
+				}
+			}
+		}
+	}
+}
+
+
+donbass_war = {
+	
+
+	
+
+	mobilized_the_youth_in_Sverdlovsk = {
+		icon = infiltrate_state
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2309
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					add_manpower = 500
+				}
+
+				25 = {
+					add_manpower = 100
+				}
+			}
+		}
+	}
+
+	mobilized_the_youth_in_kommunarsk = {
+		icon = infiltrate_state
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2308
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					add_manpower = 500
+				}
+
+				25 = {
+					add_manpower = 100
+				}
+			}
+		}
+	}
+
+	mobilized_the_youth_in_khrustalny = {
+		icon = infiltrate_state
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2029
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					add_manpower = 500
+				}
+
+				25 = {
+					add_manpower = 100
+				}
+			}
+		}
+	}
+
+	mobilized_the_youth_in_katyk = {
+		icon = infiltrate_state
+
+		allowed = {
+			2310 = {
+				is_controlled_by = DPR
+			}
+			# = 157
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2310
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					add_manpower = 500
+				}
+
+				25 = {
+					add_manpower = 100
+				}
+			}
+		}
+	}
+
+	mobilized_the_youth_in_gorlovka = {
+		icon = infiltrate_state
+
+		visible = {
+			2096 = {
+				is_controlled_by = DPR
+			}
+			# = 157
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2096
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					add_manpower = 500
+				}
+
+				25 = {
+					add_manpower = 100
+				}
+			}
+		}
+	}
+
+	mobilized_the_youth_in_makeevka = {
+		icon = infiltrate_state
+
+		visible = {
+			2028 = {
+				is_controlled_by = DPR
+			}
+			# = 157
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2028
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					add_manpower = 500
+				}
+
+				25 = {
+					add_manpower = 100
+				}
+			}
+		}
+	}
+
+	mobilized_the_youth_in_luhansk = {
+		icon = infiltrate_state
+
+		visible = {
+			518 = {
+				is_controlled_by = DPR
+			}
+			# = 157
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 518
+			} 
+		}
+
+
+		cost = 50
+
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			political_power_gain = -0.25
+		}
+
+		remove_effect = {
+			random_list = {
+				75 = {
+					add_manpower = 500
+				}
+
+				25 = {
+					add_manpower = 100
+				}
+			}
+		}
+	}
+}
+

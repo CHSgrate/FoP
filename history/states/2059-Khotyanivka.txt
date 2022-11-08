@@ -1,0 +1,19 @@
+state={
+	id=2059
+	name="STATE_2059"
+	provinces={
+		12433 
+	}
+	history = {
+		owner = KYI
+		add_core_of = KYI
+                victory_points = { 12433 4 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1000
+	state_category=enclave
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

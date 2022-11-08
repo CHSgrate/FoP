@@ -1,0 +1,15 @@
+###Base Tags - do not remove
+KHE = "countries/Kherson.txt"
+JAP	= "countries/Japan.txt"
+GER	= "countries/Germany.txt"
+ENG = "countries/England.txt"
+SOV = "countries/Soviet Union.txt"
+FRA	= "countries/France.txt"
+MEN = "countries/Unused.txt"
+CHI = "countries/Unused.txt"
+PRC = "countries/Unused.txt"
+USA = "countries/USA.txt"
+MAN = "countries/Unused.txt"
+ITA = "countries/Italy.txt"
+
+

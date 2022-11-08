@@ -1,0 +1,27 @@
+
+state={
+	id=1485
+	name="STATE_1485"
+
+	history={
+		owner = GER #ITA
+		add_core_of = ITA
+		add_core_of = SLV
+		victory_points = {
+			14257 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		14153 14257 17019 
+	}
+	manpower=67666
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=2110
+	name="Kremenchuk"
+	provinces={
+		1679 4663 4854 5097 6100 6126 6628 6680 7525 9606 12988 
+	}
+	history = {
+		victory_points = { 6680 20 }
+                victory_points = { 6100 5 }
+                victory_points = { 4663 4 }
+		owner = KRE
+		add_core_of = KRE
+		
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=380341
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

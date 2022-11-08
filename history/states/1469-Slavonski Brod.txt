@@ -1,0 +1,20 @@
+state={
+	id=1469
+	name="STATE_1469"
+	provinces={
+		1477 1966 14344 14414 20159 
+	}
+	history = {
+		owner = GER #YUG
+		add_core_of = YUG
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 14344 5 }
+	}
+	manpower=101358
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

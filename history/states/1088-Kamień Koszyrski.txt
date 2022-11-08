@@ -1,0 +1,20 @@
+
+state={
+	id=1088
+	name="Kamin'-Kashyrs'kyj"
+	provinces={
+		7316 11908 11947 12046 
+	}
+	history={
+		owner = VOL
+		add_core_of = VOL
+                victory_points = { 11947 2 }
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower=94137
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=2116
+	name="STATE_2116"
+	provinces={
+		172 1382 5348 6569 12366 12453 12464 
+	}
+	history = {
+		victory_points = { 12453 8 }
+		victory_points = { 172 5 }
+		owner = PRH
+		add_core_of = PRH
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=109658
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

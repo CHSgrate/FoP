@@ -1,0 +1,23 @@
+
+state={
+	id=1707
+	name="STATE_1707"
+	provinces={
+		1335 20689 
+	}
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BRE
+        victory_points = {
+            20689 40 #Bremen
+        }
+    }
+	manpower=445067
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

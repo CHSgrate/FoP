@@ -1,0 +1,23 @@
+
+state={
+	id=755
+	name="STATE_755"
+	history = {
+		owner = GER #ITA
+		add_core_of = CRO
+		add_core_of = ITA
+		add_core_of = FIU
+		buildings = {
+			infrastructure = 3
+			14309 = { naval_base = 3 }
+		}
+		victory_points = { 14309 10 }
+	}
+	provinces={
+		14309 
+	}
+	manpower=61000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

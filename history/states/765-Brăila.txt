@@ -1,0 +1,23 @@
+
+state={
+	id=765
+	name="STATE_765"
+	history = {
+		owner = GER #ROM
+		add_core_of = ROM
+		add_core_of = WLC
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4554 20
+		}
+	}
+	provinces={
+		743 2752 4554 4608 14336 14402 20416 
+	}
+	manpower=230895
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+}

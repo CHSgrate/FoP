@@ -1,0 +1,23 @@
+state={
+	id=1732
+	name="STATE_1732"
+	provinces={
+		3701 11876 11932 20697 
+	}
+	history={
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRS
+		add_core_of = WST
+		owner = GER #GER
+        victory_points = {
+            20697 20
+        }
+    }
+	manpower=328248
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = city
+}

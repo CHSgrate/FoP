@@ -1,0 +1,25 @@
+
+state={
+	id=2308
+	name="Alchevs'k"
+	provinces={
+		6189 6999 7093 13299 13361 13407 
+	}
+	history = {
+		victory_points = { 6999 10 }
+		victory_points = { 6189 5 }
+		owner = LPR #SOV
+		add_core_of = LPR
+		add_core_of = AFU
+		buildings = {
+			infrastructure = 3
+		}
+	}
+			resources = {
+	steel = 8
+}
+	manpower=437513
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

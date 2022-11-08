@@ -1,0 +1,23 @@
+
+state={
+	id=2113
+	name="Myrhorod"
+	provinces={
+		72 3066 3267 5888 6511 6734 6981 8427 9591 12589 12667 12765 
+	}
+	history = {
+		victory_points = { 8427 12 }
+		victory_points = { 3066 7 }
+		victory_points = { 3267 3 }
+                victory_points = { 6981 2 }
+		owner = PLT
+		add_core_of = PLT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=201728
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=557
+	name="Donets'k"
+	provinces={
+		1709 8020 13226 13509 19852 
+	}
+	history = {
+		victory_points = { 1709 30 }
+                victory_points = { 13509 20 } 
+                victory_points = { 19852 10 }
+		owner = DPR #SOV
+		add_core_of = DPR
+		add_core_of = AFU
+		
+		buildings = {
+			infrastructure = 3 industrial_complex = 3 arms_factory = 1
+		}
+	}
+resources = {
+	steel = 40
+	aluminium = 14
+}
+	manpower=987201
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

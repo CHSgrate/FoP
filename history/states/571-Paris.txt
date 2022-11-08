@@ -1,0 +1,22 @@
+
+state={
+	id=571
+	name="STATE_571"
+	provinces={
+		19865 
+	}
+	history={
+		owner = GER #FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+		}
+        victory_points = {
+            19865 80 #Paris
+        }
+    }
+	manpower=2829800
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = megalopolis
+}

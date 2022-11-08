@@ -1,0 +1,20 @@
+
+state={
+	id=2390
+	name="STATE_2390"
+	provinces={
+		723 1825 2236 2317 3599 3736 3891 7956 12012 12150 
+	}
+	history = {
+		owner = GER #SOV
+		add_core_of = SOV
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=403216
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

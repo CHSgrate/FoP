@@ -1,0 +1,31 @@
+ideas = {
+	country = {
+
+		ZHY_unfulfilled_promises = {
+			picture = KHM_unfulfilled_promises
+			modifier = {
+				political_power_gain = -0.3
+                stability_factor = -0.15
+				social_democracy_drift= -0.03
+
+			}
+		}
+
+		ZHY_shaky_coalition = {
+			picture = KHM_shaky_coalition
+			modifier = {
+			political_power_gain = -0.2
+
+			}
+		}
+
+		ZHY_beginning_of_the_reforms = {
+			picture = KHM_beginning_of_the_reforms
+			modifier = {
+				stability_factor = 0.02
+                production_factory_efficiency_gain_factor = 0.05
+
+			}
+		}
+	}
+}

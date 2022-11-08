@@ -1,0 +1,23 @@
+state={
+	id=2247
+	name="Vyshkove"
+	history={
+		owner = ZAK
+		add_core_of = ZAK
+                victory_points = { 13466 2 }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		13466 
+	}
+	manpower=19930
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

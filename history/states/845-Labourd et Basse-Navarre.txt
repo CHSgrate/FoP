@@ -1,0 +1,22 @@
+state={
+	id=845
+	name="STATE_845"
+	history={
+		owner = GER #FRA
+		add_core_of = FRA
+		add_core_of = NAV
+		victory_points = {
+            5987 5 #Biarritz
+        }
+		buildings = {
+			infrastructure = 3
+			5987 = { naval_base = 1 }
+		}
+    }
+	provinces={
+		5987 7899 14708 
+	}
+	manpower=165360
+	buildings_max_level_factor=1.000
+	state_category = town
+}

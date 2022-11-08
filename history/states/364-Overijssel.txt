@@ -1,0 +1,28 @@
+
+state={
+	id=364
+	name="STATE_364"
+
+	history={
+		owner = GER #HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			11770 10 
+		}
+		victory_points = {
+			19893 10 
+		}
+
+	}
+
+	provinces={
+		1181 1942 7126 9448 11628 11644 11699 11743 11770 19893 19897 
+	}
+	manpower=553000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

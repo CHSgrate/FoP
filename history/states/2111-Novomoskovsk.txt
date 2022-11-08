@@ -1,0 +1,22 @@
+
+state={
+	id=2111
+	name="Novomoskovs'k"
+	provinces={
+		776 6473 7249 8915 13156 13188 13263 15847 
+	}
+	history = {
+                victory_points = { 15847 12 }
+                victory_points = { 776 5 }
+                victory_points = { 13263 3 }
+		owner = DNI
+		add_core_of = DNI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=169275
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

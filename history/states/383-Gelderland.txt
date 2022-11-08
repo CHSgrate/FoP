@@ -1,0 +1,25 @@
+
+state={
+	id=383
+	name="STATE_383"
+
+	history={
+		owner = GER #HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7155 10 
+		}
+
+	}
+
+	provinces={
+		5188 5900 6029 7155 8855 11709 11852 11913 
+	}
+	manpower=530100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

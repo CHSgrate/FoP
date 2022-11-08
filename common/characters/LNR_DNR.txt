@@ -1,0 +1,104 @@
+characters={
+	DNR_Pidor={
+		name="Denis Pushilin"
+		portraits={
+			civilian={
+				large="GFX_push"
+			}
+		}
+		country_leader={
+			ideology=kleptocracy
+			expire="2222.1.1.1"
+		}
+		
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	
+	LNR_Huylo={
+		name="Leonid Pasechnik"
+		portraits={
+			civilian={
+				large="GFX_loh"
+			}
+		}
+		country_leader={
+			ideology=kleptocracy
+			expire="2222.1.1.1"
+		}
+	}
+	
+	DNR_lentsov={
+		name="Alexander Lentsov"
+		portraits={
+			civilian={
+				large="GFX_lentsov"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	
+	DNR_kozytsin={
+		name="Nikolay Kozitsyn"
+		portraits={
+			civilian={
+				large="GFX_kozitsyn"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	
+	DNR_istrakov={
+		name="Sergey Istrakov"
+		portraits={
+			civilian={
+				large="GFX_istrakov"
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	
+	DNR_basurin={
+		name="Eduard Basurin"
+		portraits={
+			civilian={
+				large="GFX_basurin"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+}

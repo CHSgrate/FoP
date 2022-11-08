@@ -1,0 +1,20 @@
+
+state={
+	id=2129
+	name="STATE_2129"
+	provinces={
+		1929 14148 14178 14186 14243 
+	}
+	history = {
+                victory_points = { 14148 7 }
+		owner = CRI
+		add_core_of = CRI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=126110
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

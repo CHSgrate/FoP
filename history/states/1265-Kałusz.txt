@@ -1,0 +1,32 @@
+
+state={
+	id=1265
+	name="Kalush"
+
+	history={
+		owner = GAL
+		add_core_of = GAL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
+		
+        victory_points = {
+       		19917 5 #Kałusz
+        }
+		victory_points = {
+			2086 2 #Dolina
+		}
+	}
+
+	provinces={
+		1124 2086 7863 13155 13194 13202 19917 
+	}
+	manpower=274243
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

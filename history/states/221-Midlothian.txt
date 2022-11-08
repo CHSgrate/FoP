@@ -1,0 +1,23 @@
+state={
+	id=221
+	name="STATE_221"
+	provinces={
+		10553 10579 10593 
+	}
+	history={
+		owner = GER #ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 4
+			10553 = { naval_base = 4 }
+		}
+		add_core_of = SCO
+	
+        victory_points = {
+            10553 20
+        }
+    }
+	manpower=565800
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

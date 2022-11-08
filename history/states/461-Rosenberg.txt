@@ -1,0 +1,25 @@
+
+state={
+	id=461
+	name="STATE_461"
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+		add_core_of = SLS
+		add_core_of = UPS
+		victory_points = {
+			20602 2 #Kreuzburg
+		}
+    }
+	provinces={
+		6180 12322 20602 
+	}
+	manpower=127625
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

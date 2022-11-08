@@ -1,0 +1,26 @@
+
+state={
+	id=476
+	name="STATE_476"
+	provinces={
+		12379 12402 12423 12435 12472 12517 
+	}
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SXN
+        victory_points = {
+            12379 20 #Chemnitz
+        }
+        victory_points = {
+            12517 2 #Annaberg-Buchholz
+        }
+    }
+	manpower=1027581
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = metropolis
+}

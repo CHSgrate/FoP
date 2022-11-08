@@ -1,0 +1,29 @@
+
+state={
+	id=1763
+	name="STATE_1763"
+
+	history={
+		owner = GER #GER
+		victory_points = {
+			13519 20 #Freiburg im Breisgau
+		}
+		victory_points = {
+			3091 2 #Waldshut-Tiengen
+		}
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BDN
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		3091 7417 9111 9224 13519 13567 13625 20749 
+	}
+	manpower=335624
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

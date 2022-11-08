@@ -1,0 +1,26 @@
+
+state={
+	id=1292
+	name="L'viv"
+	provinces={
+		249 7679 9005 12883 
+	}
+	history={
+		owner = GAL
+		add_core_of = GAL
+		buildings = {
+			infrastructure = 4
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = WUK
+        victory_points = { 249 40 }
+        victory_points = { 9005 6 }
+  	}
+	manpower=647662
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

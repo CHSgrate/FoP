@@ -1,0 +1,26 @@
+
+state={
+	id=1673
+	name="STATE_1673"
+
+	history={
+		victory_points = {
+			12268 20 #Dresden
+		}
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SXN
+
+	}
+
+	provinces={
+		12262 12268 
+	}
+	manpower=923065
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

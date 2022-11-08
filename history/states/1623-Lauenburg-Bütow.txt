@@ -1,0 +1,27 @@
+
+state={
+	id=1623
+	name="STATE_1623"
+
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+		add_core_of = PMR
+		add_core_of = KSH
+		victory_points = {
+			8562 2 #Lauenburg
+		}
+	}
+
+	provinces={
+		5647 8562 10958 20541 20544 
+	}
+	manpower=89595
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

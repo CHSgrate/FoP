@@ -1,0 +1,23 @@
+state={
+	id=1634
+	name="STATE_1634"
+		history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+		add_core_of = PMR
+		victory_points = {
+			6227 5 #Greifswald
+		}
+    }
+	provinces={
+		5868 6227 11044 19659 20559 
+	}
+	manpower=110796
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

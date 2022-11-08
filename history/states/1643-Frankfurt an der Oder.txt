@@ -1,0 +1,26 @@
+
+state={
+	id=1643
+	name="STATE_1643"
+
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRS
+		add_core_of = BRN
+		victory_points = {
+			8905 5 #Frankfurt an der Oder
+		}
+	}
+
+	provinces={
+		4306 5265 8905 9515 11720 
+	}
+	manpower=251374
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

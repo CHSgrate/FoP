@@ -1,0 +1,159 @@
+#reload countrycolors
+
+GER = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+
+OPZ = {
+	color = rgb { 67 108 135 }
+	color_ui = rgb { 67 108 135 }
+}
+
+CRI = {
+	 color = rgb { 9 63 14 }
+	color_ui = rgb { 9 63 14 }
+}
+
+MYK = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 219 240 255 }
+}
+
+ODE = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 219 240 255 }
+}
+
+DPR = {
+	color = rgb { 153 48 54 }
+	color_ui = rgb { 153 48 54 }
+}
+
+LPR = {
+	 color = rgb { 71 104 127 }
+	color_ui = rgb { 71 104 127 }
+}
+
+ZAP = {
+	color = rgb { 206 51 56 }
+	color_ui = rgb { 206 51 56 }
+}
+
+AFU = {
+	color = rgb {79 127 83 }
+	color_ui = rgb { 79 127 83 }
+}
+
+DNI = {
+	color = rgb { 99 122 89 }
+	color_ui = rgb { 99 122 89 }
+}
+
+TRA = {
+	color = rgb { 226 45 45 }
+	color_ui = rgb { 226 45 45 }
+}
+
+KHA = {
+	 color = rgb { 193 83 131 }
+	color_ui = rgb { 193 83 131 }
+}
+
+KHC = {
+	color = rgb { 181 59 43 }
+	color_ui = rgb { 181 59 43 }
+}
+
+PRH = {
+	color = rgb { 242 205 24 }
+	color_ui = rgb { 242 205 24 }
+}
+
+SUM = {
+	color = rgb { 206 51 56 }
+	color_ui = rgb { 206 51 56 }
+}
+
+KYI = {
+	color = rgb { 0 80 137 }
+	color_ui = rgb { 0 80 137 }
+}
+
+UKR = {
+	color = rgb {0 96 165 }
+	color_ui = rgb { 0 96 165 }
+}
+
+PLT = {
+	color = rgb { 36 153 153 }
+	color_ui = rgb { 36 153 153 }
+}
+
+KRE = {
+	color = rgb { 21 44 61 }
+	color_ui = rgb { 21 44 61 }
+}
+
+KIR = {
+	color = rgb { 145 15 28 }
+	color_ui = rgb { 145 15 28 }
+}
+
+UMA = {
+	color = rgb { 182 204 182 }
+	color_ui = rgb { 182 204 182 }
+}
+
+CHR = {
+	color = rgb { 211 112 112 }
+	color_ui = rgb { 211 112 112 }
+}
+
+ZHY = {
+	color = rgb { 255 62 56 }
+	color_ui = rgb { 255 62 56 }
+}
+
+VOL = {
+	 color = rgb { 113 93 0 }
+	color_ui = rgb { 113 93 0 }
+}
+
+RIV = {
+	color = rgb { 224 187 0 }
+	color_ui = rgb { 224 187 0 }
+}
+
+KHM = {
+	color = rgb { 140 183 0 }
+	color_ui = rgb { 140 183 0 }
+}
+
+ROM = {
+	color = rgb { 219 182 0 }
+	color_ui = rgb { 219 182 0 }
+}
+
+ZAK = {
+	color = rgb {0 61 5 }
+	color_ui = rgb { 0 61 5 }
+}
+
+TER = {
+	color = rgb { 15 15 15 }
+	color_ui = rgb { 15 15 15 }
+}
+
+GUT = {
+	color = rgb { 160 97 108 }
+	color_ui = rgb { 160 97 108 }
+}
+
+GAL = {
+color = rgb {204 38 136 }
+	color_ui = rgb { 204 38 136 }
+}
+
+
+

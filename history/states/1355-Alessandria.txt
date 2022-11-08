@@ -1,0 +1,26 @@
+
+state={
+	id=1355
+	name="STATE_1355"
+
+	history={
+		owner = GER #ITA
+		add_core_of = ITA
+		add_core_of = PIE
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			20016 5
+		}
+
+	}
+
+	provinces={
+		5199 14396 14466 14474 14486 20016 
+	}
+	manpower=493698
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

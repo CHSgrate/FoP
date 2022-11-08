@@ -1,0 +1,21 @@
+
+state={
+	id=2068
+	name="Chornobyl'"
+	provinces={
+		8917 9243 12174 
+	}
+	history = {
+		owner = KYI
+		add_core_of = KYI
+                victory_points = { 9243 11 }
+                victory_points = { 12174 1 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=51000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

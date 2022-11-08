@@ -1,0 +1,214 @@
+ideas = {
+	country = {
+
+		AFU_disorganised_administration = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				political_power_gain = -0.3
+             stability_factor = -0.3
+			 industry_repair_factor = -0.5
+
+			}
+		}
+		
+		AFU_martial_law = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = 0.05
+				conscription = 0.01
+				drift_defence_factor = 0.2
+
+			}
+		}
+		
+		industrial_legacy = {
+			picture = industrial_legacy
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = -0.15
+                production_factory_max_efficiency_factor = -0.05
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_rail_way_factor = 0.05
+				production_speed_supply_node_factor = 0.15
+				production_speed_infrastructure_factor = 0.1
+				industry_air_damage_factor = 0.05
+				
+				
+			}
+		}
+		
+		AFU_pro_russian_sentiments = {
+			picture = AFU_pro_russian_sentiments
+			modifier = {
+				war_support_factor = -0.1
+				surrender_limit = -0.1
+				resistance_target_on_our_occupied_states = -0.2
+
+			}
+		}
+	    
+		AFU_apathy_of_the_population  = {
+			picture = AFU_apathy_of_the_population
+			modifier = {
+				war_support_factor = -0.05
+				recruitable_population_factor = -0.15				
+
+			}
+		    available = {
+				NOT = { has_war_with = DPR
+			}
+		   }
+	    }
+		
+		AFU_nationalist_agendas = {
+			picture = AFU_nationalist_agendas
+			modifier = {
+				radical_nationalism_drift = 0.01
+				army_morale = 2
+
+			}
+		}
+		
+		AFU_continue_the_state_of_emergency = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+               stability_weekly = -0.02
+
+			}
+		}
+		
+		AFU_local_arms_manufacturing = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+               industrial_capacity_factory = 0.15
+			   production_factory_max_efficiency_factor = 0.05
+			   production_lack_of_resource_penalty_factor = -0.1
+
+			}
+			equipment_bonus = {
+                     infantry_equipment = {
+					 instantly use instant = yes
+                     build_cost_ic = -0.15
+                  }
+			}
+		}
+		
+		AFU_millitary_administration = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				political_power_gain = -0.15
+                stability_factor = 0.15
+				consumer_goods_factor = -0.05
+				supply_node_range = 0.15
+
+			}
+		}
+	
+		AFU_defensive_strategy = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				land_reinforce_rate = 0.05
+				surrender_limit = 0.12
+                army_core_defence_factor = 0.1
+				army_morale = 3
+				 coordination_bonus = 0.1
+				 dig_in_speed = 2
+				 max_dig_in_factor = 0.1
+			}
+		}
+		AFU_improved_training_methods = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+			    experience_gain_army_factor = 0.15
+				training_time_army_factor = 0.1
+				minimum_training_level = 0.15
+				experience_loss_factor =-0.1
+				army_speed_factor = 0.05
+				army_org = 0.5
+				army_org_regain = 0.1
+				pocket_penalty = -0.1
+				land_reinforce_rate = 0.05
+			}
+		}
+		AFU_broader_training_plan = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				experience_gain_army_factor = -0.2
+				training_time_army_factor = -0.2
+				minimum_training_level = -0.07
+				conscription = 0.04
+				army_attack_factor = -0.1
+				army_defence_factor = 0.02
+				army_org = -0.5
+				pocket_penalty = -0.1
+				local_supply_impact_factor = -0.5
+				experience_loss_factor = 0.15
+			}
+		}
+		AFU_ready_military = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				army_attack_factor = 0.07
+				army_defence_factor = 0.1
+				army_speed_factor = 0.05
+				supply_factor = 0.05
+				no_supply_grace = 120
+				equipment_capture_factor = 0.01
+				army_breakthrough = 0.05
+				
+			}
+		}
+		AFU_ce_baza_ce_genshtab = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				max_planning = 0.2
+		        planning_speed = 0.1
+		        army_leader_start_level = 1
+		        army_leader_start_planning_level = 1
+				
+			}
+		}
+		AFU_harsh_quotas = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+            stability_factor = 0.1
+			industrial_capacity_factory = 0.05
+			consumer_goods_factor = 0.03
+			
+				
+			}
+		}
+		AFU_support_UKR = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+            stability_weekly = 0.02
+			consumer_goods_factor = -0.05
+			experience_gain_army_factor = 0.1
+			war_support_factor = 0.1
+			
+				
+			}
+		}
+		AFU_support_PRH = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+            stability_factor = 0.05
+			consumer_goods_factor = -0.02
+			war_support_factor = 0.05
+			political_power_cost = -0.05	
+			}
+		}
+		
+		AFU_bezlad = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+            stability_factor = -0.3
+			consumer_goods_factor = 0.2
+			political_power_cost = -0.4
+			
+			}
+		}
+    }
+}

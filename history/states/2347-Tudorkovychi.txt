@@ -1,0 +1,23 @@
+state={
+	id=2347
+	name="STATE_2347"
+	provinces={
+		12484 
+	}
+	history={
+		owner = GAL
+		add_core_of = GAL
+		buildings = {
+			infrastructure = 2
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = WUK
+  	}
+	manpower=6546
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

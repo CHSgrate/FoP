@@ -1,0 +1,341 @@
+characters={
+	GAL_Koshulinsky={
+		name="Ruslan Koshulinsky"
+		portraits={
+			civilian={
+				large="GFX_Kosh"
+			}
+		}
+		country_leader={
+			ideology=national_democracy
+			expire="2222.1.1.1"
+		}
+	}
+	
+	ZAK_Moskal={
+		name="Hennadiy Moskal"
+		portraits={
+			civilian={
+				large="GFX_Moskal"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2222.1.1.1"
+		}
+	}
+	
+	CRI_aksyonov = {
+		name="Sergey Aksyonov"
+		portraits={
+			civilian={
+				large="GFX_Aksyonov"
+			}
+		}
+		country_leader={
+		    
+			ideology=national_democracy
+			expire="2222.1.1.1"
+		}
+	}
+	
+	PUC_Puchkov={
+		name="Dmitriy Puchkov"
+		portraits={
+			civilian={
+				large="GFX_puchkov"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_socialism
+			expire="2222.1.1.1"
+		}
+	}
+	
+	PUC_Sanych={
+		name="Klim Zhukov"
+		portraits={
+			civilian={
+				large="GFX_zhukov"
+			}
+		}
+		country_leader={
+			ideology=communism
+			expire="2222.1.1.1"
+		}
+	}
+	
+	KHA_Avakov={
+		name="Arsen Avakov"
+		portraits={
+			civilian={
+				large="GFX_Kvak"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2222.1.1.1"
+		}
+	}
+	
+	ODE_Voron={
+		name="Igor Voronchenko"
+		portraits={
+			civilian={
+				large="GFX_More"
+			}
+		}
+		country_leader={
+			ideology=admiralty_council
+			expire="2222.1.1.1"
+		}
+	}
+	
+	OPZ_Medvedchuk={
+		name="Viktor Medvedchuk"
+		portraits={
+			civilian={
+				large="GFX_Medvid"
+			}
+		}
+		country_leader={
+			ideology=national_democracy
+			expire="2222.1.1.1"
+		}
+	}
+	
+	UAR_Poroshenko={
+		name="Petro Poroshenko"
+		portraits={
+			civilian={
+				large="GFX_Poroh"
+			}
+		}
+		country_leader={
+			ideology=national_democracy
+			expire="2222.1.1.1"
+		}
+	}
+	
+	UAS_Lyashko={
+		name="Oleg Lyashko"
+		portraits={
+			civilian={
+				large="GFX_Lyash"
+			}
+		}
+		country_leader={
+			ideology=agrarianism
+			expire="2222.1.1.1"
+		}
+	}
+	
+	UKR_Zelensky={
+		name="Volodymyr Zelensky"
+		portraits={
+			civilian={
+				large="GFX_Zel"
+			}
+		}
+		country_leader={
+		    traits = { legitimate_leader }
+			ideology=liberalism
+			expire="2222.1.1.1"
+		}
+	}
+    
+	VOL_Lucenko={
+		name="Yuriy Lucenko"
+		portraits={
+			civilian={
+				large="GFX_adad"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2222.1.1.1"
+		}
+	}
+
+	SUM_council = {
+		name="City Council"
+		portraits={
+			civilian={
+				large="GFX_council"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=centrist
+			expire="2222.1.1.1"
+		}
+	}
+
+	ZAP_taylor = {
+		name="Oleksiy Shkrobinec'"
+		portraits={
+			civilian={
+				large="GFX_taylor"
+			}
+		}
+		country_leader={
+		    traits = { 
+
+			}
+			ideology=liberalism
+			expire="2222.1.1.1"
+		}
+	}
+
+	TRN_huy = {
+		name="Vadim Krasnoselsky"
+		portraits={
+			civilian={
+				large="GFX_huy"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=authoritarian_socialism
+			expire="2222.1.1.1"
+		}
+	}
+
+	KHM_gabbi = {
+		name="Dmytro Gabinet"
+		portraits={
+			civilian={
+				large="GFX_gabbi"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=centrist
+			expire="2222.1.1.1"
+		}
+	}
+	
+	CHE_mer = {
+		name="Anatoliy Bondarenko"
+		portraits={
+			civilian={
+				large="GFX_mer"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=centrist
+			expire="2222.1.1.1"
+		}
+	}
+	
+	PLT_abil = {
+		name="Andriy Biletsky"
+		portraits={
+			civilian={
+				large="GFX_abil"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=militant_nationalism
+			expire="2222.1.1.1"
+		}
+	}
+	
+	TER_pagan = {
+		name="Pagan council"
+		portraits={
+			civilian={
+				large="GFX_pagan"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=ultraconservatism 
+			expire="2222.1.1.1"
+		}
+	}
+	
+	GUT_guts = {
+		name="Guculs'kyj Krajovyj Uryad"
+		portraits={
+			civilian={
+				large="GFX_guts"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=centrist 
+			expire="2222.1.1.1"
+		}
+	}
+     
+    KYI_oblast = {
+		name="Kyjivs'ka Oblasna rada"
+		portraits={
+			civilian={
+				large="GFX_oblast"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=centrist 
+			expire="2222.1.1.1"
+		}
+	}
+
+    MYK_kim = {
+		name="Vitaly Kim"
+		portraits={
+			civilian={
+				large="GFX_kim"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=centrist
+			expire="2222.1.1.1"
+		}
+	}
+     DNI_board = {
+		name="Board of directors"
+		portraits={
+			civilian={
+				large="GFX_board"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=corporatocracy
+			expire="2222.1.1.1"
+		}
+	}
+	
+	ROM_mil = {
+		name="UN/Romanian military administration"
+		portraits={
+			civilian={
+				large="GFX_mil"
+			}
+		}
+		country_leader={
+		    traits = { 
+			}
+			ideology=mil_administration
+			expire="2222.1.1.1"
+		}
+	}
+
+	
+}

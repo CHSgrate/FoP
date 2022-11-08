@@ -1,0 +1,66 @@
+add_namespace = dnr
+
+country_event = { # Warehouse found
+	id = dnr.8
+	title = dnr.8.t
+	desc = dnr.8.d
+
+	picture = GFX_report_event_carp_rada
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { 
+		name = dnr.8.a
+
+		random_list = {
+			50 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+				}
+			}
+			
+			30 = {
+				add_equipment_to_stockpile = {
+					type = artillery_equipment
+					amount = 250
+				}
+			}
+
+			15 = {
+				add_equipment_to_stockpile = {
+					type = anti_air_equipment
+					amount = 100
+				}
+			}
+
+			5 = {
+				add_equipment_to_stockpile = {
+					type = CAS_equipment
+					amount = 5
+				}
+			}
+		}
+	}
+}
+
+
+country_event = { # No Warehouses were found in the area
+	id = dnr.9
+	title = dnr.9.t
+	desc = dnr.9.d
+
+	picture = GFX_report_event_carp_rada
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { 
+		name = dnr.9.a
+
+		#add_political_power = 150
+	}
+}

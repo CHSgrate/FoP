@@ -1,0 +1,26 @@
+
+state={
+	id=1720
+	name="STATE_1720"
+
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = HAM
+		victory_points = {
+			11075 5 #Cuxhaven
+		}
+
+	}
+
+	provinces={
+		11075 
+	}
+	manpower=104273
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

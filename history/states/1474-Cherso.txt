@@ -1,0 +1,21 @@
+
+state={
+	id=1474
+	name="STATE_1474"
+	history={
+		owner = GER #ITA
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ITA
+		add_core_of = FIU
+	}
+	provinces={
+		20127 
+	}
+	manpower=17838
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

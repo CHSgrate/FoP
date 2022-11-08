@@ -1,0 +1,92 @@
+spriteTypes = {
+
+ SpriteType = {
+     name = "GFX_idea_CHR_allies_in_the_west"
+	 texturefile = "gfx/interface/ideas/cherkasy-ideas/CHR_allies_in_the_west.dds"
+	} 
+ SpriteType = {
+     name = "GFX_idea_CHR_cornered_and_beaten"
+	 texturefile = "gfx/interface/ideas/cherkasy-ideas/CHR_cornered_and_beaten.dds"
+	} 
+ SpriteType = {
+     name = "GFX_idea_CHR_renovation_programme"
+	 texturefile = "gfx/interface/ideas/cherkasy-ideas/CHR_reconstruction.dds"
+	} 
+SpriteType = {
+     name = "GFX_idea_ZHY_unfulfilled_promises"
+	 texturefile = "gfx/interface/ideas/zhytomyr-ideas/ZHY_unfulfilled_promises.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_ZHY_shaky_coalition"
+	 texturefile = "gfx/interface/ideas/zhytomyr-ideas/ZHY_shaky_coalition.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_ZHY_beginning_of_the_reforms"
+	 texturefile = "gfx/interface/ideas/zhytomyr-ideas/ZHY_beginning_of_the_reforms.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_PLT_home_of_the_revolution"
+	 texturefile = "gfx/interface/ideas/poltava-ideas/PLT_home_of_the_revolution.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_PLT_unstable_position"
+	 texturefile = "gfx/interface/ideas/poltava-ideas/PLT_unstable_position.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_centre_of_the_ukrainian_nationalism"
+	 texturefile = "gfx/interface/ideas/galicia-ideas/GAL_ukrnat.dds"
+    }
+SpriteType = {
+     name = "GFX_idea_labour_emergency_crysis"
+	 texturefile = "gfx/interface/ideas/galicia-ideas/GAL_labour_emergency_crysis.dds"
+    }
+SpriteType = {
+     name = "GFX_idea_chornovils_model"
+	 texturefile = "gfx/interface/ideas/galicia-ideas/GAL_chornovols_economic_model.dds"
+    }
+SpriteType = {
+     name = "GFX_idea_ZAK_hungarian_influence"
+	 texturefile = "gfx/interface/ideas/transcarpathia-ideas/ZAK_hungarian_influence.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_ZAK_local_security_service"
+	 texturefile = "gfx/interface/ideas/transcarpathia-ideas/ZAK_local_security_service.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_ZAK_svynohryusyny"
+	 texturefile = "gfx/interface/ideas/transcarpathia-ideas/ZAK_svynohryusyny.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_KHM_good_climate_for_investments"
+	 texturefile = "gfx/interface/ideas/khmelnitsky-ideas/KHM_good_climate_for_investments.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_romanian_millitary_administration"
+	 texturefile = "gfx/interface/ideas/chernivtsi-ideas/romanian_millitary_administration.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_industrial_legacy"
+	 texturefile = "gfx/interface/ideas/zsu-ideas/industrial_legacy.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_AFU_pro_russian_sentiments"
+	 texturefile = "gfx/interface/ideas/zsu-ideas/AFU_pro_russian_sentiments.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_AFU_nationalist_agendas"
+	 texturefile = "gfx/interface/ideas/zsu-ideas/AFU_nationalist_agendas.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_AFU_apathy_of_the_population"
+	 texturefile = "gfx/interface/ideas/zsu-ideas/AFU_apathy_of_the_population.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_AFU_disorganised_administration"
+	 texturefile = "gfx/interface/ideas/zsu-ideas/AFU_disorganised_administration.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_AFU_martial_law"
+	 texturefile = "gfx/interface/ideas/zsu-ideas/AFU_martial_law.dds"
+	}
+
+}

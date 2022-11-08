@@ -1,0 +1,20 @@
+state={
+	id=1491
+	name="STATE_1491"
+	provinces={
+		20139 20140 
+	}
+	history = {
+		owner = GER #YUG
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = YUG
+		add_core_of = DLM
+	}
+	manpower=40505
+	state_category=small_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

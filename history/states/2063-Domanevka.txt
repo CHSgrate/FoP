@@ -1,0 +1,23 @@
+
+state={
+	id=2063
+	name="STATE_2063"
+
+	history={
+		owner = MYK #SOV
+		add_core_of MYK
+		
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		378 3327 5474 8521 8522 13753 
+	}
+	manpower=74000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

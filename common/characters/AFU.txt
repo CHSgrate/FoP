@@ -1,0 +1,93 @@
+characters={
+	AFU_Krivonis={
+		name="Serhiy Kryvonos"
+		portraits={
+			civilian={
+				large="GFX_Kriv"
+			}
+		}
+		country_leader={
+			ideology=admiralty_council
+			desc = "POLITICS_SERGIY_KRYVONIS_DESC"
+			expire="2222.1.1.1"
+		}
+		
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	
+	AFU_Kohan={
+		name="Mykhailo Kohanivsky"
+		portraits={
+			civilian={
+				large="GFX_kohanivsky"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	
+	
+	AFU_homa={
+		name="Ruslan Khomchak"
+		portraits={
+			civilian={
+				large="GFX_homchak"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	
+	AFU_malko={
+		name="Vasyl Malkovic"
+		portraits={
+			civilian={
+				large="GFX_malkovic"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	
+	AFU_shapt={
+		name="Sergiy Shaptala"
+		portraits={
+			civilian={
+				large="GFX_shaptala"
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}

@@ -1,0 +1,35 @@
+#Всі іконки мають бути збережені у форматі x_group.dds. Це можна зробити в paint.net.
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_liberal_democracy_group"
+		texturefile = "gfx/interface/ideologies/liberal_democracy_group.dds"
+        }
+	spriteType = {
+		name = "GFX_ideology_conservative_democracy_group"
+		texturefile = "gfx/interface/ideologies/conservative_democracy_group.dds"
+        }
+	spriteType = {
+		name = "GFX_ideology_radical_nationalism_group"
+		texturefile = "gfx/interface/ideologies/radical_nationalism_group.dds"
+        }
+	spriteType = {
+		name = "GFX_ideology_radical_socialism_group"
+		texturefile = "gfx/interface/ideologies/radical_socialism_group.dds"
+        }
+	spriteType = {
+		name = "GFX_ideology_millitary_junta_group"
+		texturefile = "gfx/interface/ideologies/military_dictatorship_group.dds"
+        }
+	spriteType = {
+		name = "GFX_ideology_oligarchy_group"
+		texturefile = "gfx/interface/ideologies/oligarchy_group.dds"
+        }
+	spriteType = {
+		name = "GFX_ideology_social_democracy_group"
+		texturefile = "gfx/interface/ideologies/social_democracy_group.dds"
+        }
+	spriteType = {
+		name = "GFX_ideology_centrism_group"
+		texturefile = "gfx/interface/ideologies/centrism_group.dds"
+        }
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=570
+	name="STATE_570"
+
+	history={
+		owner = GER #FRA
+		add_core_of =FRA
+		add_core_of =LOR
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			19847 10 
+		}
+
+	}
+
+	provinces={
+		9356 17274 19846 19847 
+	}
+	manpower=345600
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

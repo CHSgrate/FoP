@@ -1,0 +1,21 @@
+state={
+	id=2344
+	name="STATE_2344"
+	history={
+		owner = GER #HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			12256 10 #Maastricht
+		}
+    }
+	provinces={
+		12256 19896
+	}
+	manpower=175650
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

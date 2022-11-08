@@ -1,0 +1,26 @@
+
+state={
+	id=260
+	name="STATE_260"
+	provinces={
+		4894 10810 10830 10903 19644 19645 19646 20650 
+	}
+	history={
+	    owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+		add_core_of = SLH
+		add_core_of = SLW
+		add_core_of = NFR
+		victory_points = {
+			10903 2 #Husum
+		}
+    }
+	manpower=104331
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

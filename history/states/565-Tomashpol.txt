@@ -1,0 +1,21 @@
+
+state={
+	id=565
+	name="Tomashpil'"
+	provinces={
+		583 928 1025 9303 13139 13225 13278 
+	}
+	history = {
+		victory_points = { 9303 7 }
+                victory_points = { 583 4 }
+		owner = ZHY
+		add_core_of = ZHY
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=152281
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

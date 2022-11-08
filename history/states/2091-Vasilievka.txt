@@ -1,0 +1,21 @@
+
+state={
+	id=2091
+	name="Vasylivka"
+	provinces={
+		1707 5114 5144 7543 8669 13728 13788 
+	}
+	history = {
+                victory_points = { 13728 9 }
+                victory_points = { 7543 12 }
+		owner = ZAP
+		add_core_of = ZAP
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=184224
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

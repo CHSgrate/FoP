@@ -1,0 +1,21 @@
+
+state={
+	id=2075
+	name="Kryvyj Rih"
+	provinces={
+		1245 1971 3478 4991 9447 9631 13504 13581 13628 13709 15854 
+	}
+	history = {
+		victory_points = { 13581 40 }
+		
+		owner = DNI
+		add_core_of = DNI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=755667
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

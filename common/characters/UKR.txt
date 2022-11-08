@@ -1,0 +1,43 @@
+characters={
+	UKR_Yermak={
+		name="Andriy Yermak"
+		portraits={
+			civilian={
+				large="GFX_Yermak"
+			}
+		}
+		country_leader={
+		    traits = { oligarchy_puppet }
+			ideology=kleptocracy
+			expire="2222.1.1.1"
+		}
+	}
+	
+	UKR_Bogdan={
+		name="Andriy Bogdan"
+		portraits={
+			civilian={
+				large="GFX_Bogdan"
+			}
+		}
+		country_leader={
+		    traits = { grey_eminence }
+			ideology=europeanism
+			expire="2222.1.1.1"
+		}
+	}
+	
+	UKR_Razum={
+		name="Dmytro Razumkov"
+		portraits={
+			civilian={
+				large="GFX_Razum"
+			}
+		}
+		country_leader={
+		    traits = { rada_leader }
+			ideology=centrist
+			expire="2222.1.1.1"
+		}
+	}
+}

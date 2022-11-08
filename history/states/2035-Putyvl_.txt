@@ -1,0 +1,21 @@
+
+state={
+	id=2035
+	name="Putyvl'"
+	provinces={
+		3561 8029 12186 15845 
+	}
+	history = {
+		owner = PRH
+		add_core_of = PRH
+                victory_points = { 15845 8 }
+		
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=62000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

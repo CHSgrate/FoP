@@ -1,0 +1,19 @@
+
+state={
+	id=2027
+	name="Kyjiv"
+	provinces={
+		1597 1701 
+	}
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=267185
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

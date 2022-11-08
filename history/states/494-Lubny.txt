@@ -1,0 +1,22 @@
+
+state={
+	id=494
+	name="Lubny"
+	provinces={
+		331 1542 3690 4837 6131 6644 7547 12609 12618 12734 12751 
+	}
+	history = {
+		victory_points = { 12751 9 }
+		victory_points = { 6644 5 }
+                victory_points = { 331 3 }
+		owner = PLT
+		add_core_of = PLT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=187538
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

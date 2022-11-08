@@ -1,0 +1,20 @@
+state={
+	id=1482
+	name="STATE_1482"
+	history={
+		owner = GER #ITA
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ITA
+		add_core_of = TST
+	}
+	provinces={
+		20130 
+	}
+	manpower=19526
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

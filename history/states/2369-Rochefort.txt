@@ -1,0 +1,20 @@
+
+state={
+	id=2369
+	name="STATE_2369"
+	history={
+		owner = GER #BEL
+		add_core_of = BEL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = WLN
+    }
+	provinces={
+		1744 2586 12581 
+	}
+	manpower=106346
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

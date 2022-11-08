@@ -1,0 +1,4 @@
+on_actions = {
+	
+	on_startup = { effect = { AFU = {set_country_flag = part_of_war} DPR = {set_country_flag = part_of_war} LPR = {set_country_flag = part_of_war}} }
+}

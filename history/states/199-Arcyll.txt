@@ -1,0 +1,27 @@
+
+state={
+	id=199
+	name="STATE_199"
+
+	history={
+		owner = GER #ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SCO
+		victory_points = {
+			4063 1 
+		}
+
+	}
+
+	provinces={
+		4063 4993 10461 10565 19454 
+	}
+	manpower=62000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

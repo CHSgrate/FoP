@@ -1,0 +1,253 @@
+spriteTypes = {
+
+   spriteType = {
+		name = "GFX_Papich"
+		texturefile = "gfx/leaders/RIV/Papich.dds"
+	}
+	spriteType = {
+		name = "GFX_adad"
+		texturefile = "gfx/leaders/VOL/adad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Razum"
+		texturefile = "gfx/leaders/UKR/Razumkov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Yermak"
+		texturefile = "gfx/leaders/UKR/Yermak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Bogdan"
+		texturefile = "gfx/leaders/UKR/Bogdan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_malkovic"
+		texturefile = "gfx/leaders/AFU/malkovic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_shaptala"
+		texturefile = "gfx/leaders/AFU/shaptala.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Kriv"
+		texturefile = "gfx/leaders/AFU/Kriv.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Moskal"
+		texturefile = "gfx/leaders/ZAK/Moskal.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_homchak"
+		texturefile = "gfx/leaders/AFU/homchak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_kohanivsky"
+		texturefile = "gfx/leaders/AFU/kohanivsky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_malkovic"
+		texturefile = "gfx/leaders/AFU/malkovic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_shaptala"
+		texturefile = "gfx/leaders/AFU/shaptala.dds"
+	}
+
+	spriteType = {
+		name = "GFX_push"
+		texturefile = "gfx/leaders/DNR/push.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lentsov"
+		texturefile = "gfx/leaders/DNR/lentsov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_kozitsyn"
+		texturefile = "gfx/leaders/DNR/kozytsin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_istrakov"
+		texturefile = "gfx/leaders/DNR/istrakov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_basurin"
+		texturefile = "gfx/leaders/DNR/basurin.dds"
+	}
+	
+
+	# LUH
+	spriteType = {
+		name = "GFX_loh"
+		texturefile = "gfx/leaders/LNR/loh.dds"
+	}
+	# ZAP
+	spriteType = {
+		name = "GFX_taylor"
+		texturefile = "gfx/leaders/ZAP/tayler.dds"
+	}
+
+	# CRI
+	spriteType = {
+		name = "GFX_Aksyonov"
+		texturefile = "gfx/leaders/CRI/Aksyonov.dds"
+	}
+
+	# TRN
+	spriteType = {
+		name = "GFX_huy"
+		texturefile = "gfx/leaders/TRN/huy.dds"
+	}
+
+	# SUM
+	spriteType = {
+		name = "GFX_council"
+		texturefile = "gfx/leaders/SUM/council.dds"
+	}
+
+	# CHE
+	spriteType = {
+		name = "GFX_mer"
+		texturefile = "gfx/leaders/CHE/mer.dds"
+	}
+
+	# KHM
+	spriteType = {
+		name = "GFX_gabbi"
+		texturefile = "gfx/leaders/KHM/gabbi.dds"
+	}
+	spriteType = {
+		name = "GFX_Razum"
+		texturefile = "gfx/leaders/UKR/Razumkov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Yermak"
+		texturefile = "gfx/leaders/UKR/Yermak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Bogdan"
+		texturefile = "gfx/leaders/UKR/Bogdan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_malkovic"
+		texturefile = "gfx/leaders/AFU/malkovic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_shaptala"
+		texturefile = "gfx/leaders/AFU/shaptala.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ivan"
+		texturefile = "gfx/leaders/RIV/Ivanguy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Slidan"
+		texturefile = "gfx/leaders/RIV/Slidan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Sus"
+		texturefile = "gfx/leaders/RIV/SuperSUS.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_kim"
+		texturefile = "gfx/leaders/MYK/kim.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Kosh"
+		texturefile = "gfx/leaders/GAL/Kosh.dds"
+	}
+	spriteType = {
+		name = "GFX_puchkov"
+		texturefile = "gfx/leaders/PUC/puchkov.dds"
+	}
+	spriteType = {
+		name = "GFX_zhukov"
+		texturefile = "gfx/leaders/PUC/Sanych.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Kvak"
+		texturefile = "gfx/leaders/KHA/Kvak.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_More"
+		texturefile = "gfx/leaders/ODE/More.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Medvid"
+		texturefile = "gfx/leaders/OPZ/Medvid.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Poroh"
+		texturefile = "gfx/leaders/UAR/Poroh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Lyash"
+		texturefile = "gfx/leaders/UAS/Lyash.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Zel"
+		texturefile = "gfx/leaders/UKR/Zel.dds"
+	}
+    
+	spriteType = {
+		name = "GFX_abil"
+		texturefile = "gfx/leaders/PLT/abil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_pagan"
+		texturefile = "gfx/leaders/TER/pagan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_oblast"
+		texturefile = "gfx/leaders/KYI/oblast.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_guts"
+		texturefile = "gfx/leaders/GUT/guts.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_board"
+		texturefile = "gfx/leaders/DNI/board.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_mil"
+		texturefile = "gfx/leaders/ROM/mil.dds"
+	}
+
+
+}

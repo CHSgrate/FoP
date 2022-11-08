@@ -1,0 +1,221 @@
+﻿capital = 876
+
+set_research_slots = 4
+give_guarantee = ALB
+give_guarantee = SMR
+give_guarantee = VAT
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	#gwtank = 1
+	#basic_light_tank = 1
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	cv_early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	tactical_bomber2 = 1
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	CAS1 = 1
+	cv_CAS1 = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	bicycle_infantry = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	set_autonomy = {
+		target = LBA
+		autonomous_state = autonomy_reichskommissariat
+	}
+	else_if = {
+		limit = {
+			has_dlc = "Together for Victory"	
+		}
+		set_autonomy = {
+			target = LBA
+			autonomous_state = autonomy_integrated_puppet
+		}
+	}
+	else = { puppet = LBA }
+}
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		
+		has_dlc = "No Step Back"
+		
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_medium_battery = 1
+		basic_light_battery = 1
+		improved_secondary_battery = 1
+		basic_heavy_armor_scheme = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		cruiser_submarines = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		improved_airplane_launcher = 1
+	}
+}
+#if = {
+#	limit = {
+#		has_dlc = "Man the Guns"
+#	}
+#	add_ideas = MTG_naval_treaty_cheating
+#}
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 20
+	fascism = 75
+	democratic = 3
+	communism = 2
+}
+
+recruit_character = ITA_palmiro_togliatti
+recruit_character = ITA_victor_emmanuel_iii
+recruit_character = ITA_ferruccio_parri
+recruit_character = ITA_benito_mussolini
+recruit_character = ITA_pietro_badoglio
+recruit_character = ITA_emilio_de_bono
+recruit_character = ITA_ugo_cavallero
+recruit_character = ITA_giovanni_messe
+recruit_character = ITA_sebastiano_visconti_prasca
+recruit_character = ITA_ubaldo_soddu
+recruit_character = ITA_italo_balbo
+recruit_character = ITA_rodolfo_graziani
+recruit_character = ITA_inigo_campioni
+recruit_character = ITA_alberto_da_zara
+recruit_character = ITA_giuseppe_fioravanzo
+recruit_character = ITA_carlo_bergamini
+recruit_character = ITA_angelo_iachino
+recruit_character = ITA_alfredo_guzzoni
+recruit_character = ITA_renato_sandalli
+recruit_character = ITA_guiseppe_fioravanzo
+recruit_character = ITA_francesco_pricolo
+recruit_character = ITA_silvio_scaroni
+recruit_character = ITA_vittorio_ambrosio
+recruit_character = ITA_arturo_riccardi
+recruit_character = ITA_mario_roatta
+recruit_character = ITA_marziale_cerutti
+recruit_character = ITA_ettore_muti
+recruit_character = ITA_gaetano_crocco
+recruit_character = ITA_luigi_mascherpa
+recruit_character = ITA_domenico_cavagnari
+recruit_character = ITA_amedeo_mecozzi
+recruit_character = ITA_rino_corso_fougier
+recruit_character = ITA_giacomo_acerbo
+recruit_character = ITA_giovanni_marinelli
+recruit_character = ITA_serafino_mazzolini
+recruit_character = ITA_roberto_farinacci
+recruit_character = ITA_ivanoe_bonomi
+recruit_character = ITA_junio_valerio_borghese
+recruit_character = ITA_luigi_einaudi
+recruit_character = ITA_amadeo_bordiga
+recruit_character = ITA_paolo_thaon_di_revel
+recruit_character = ITA_dino_grandi
+recruit_character = ITA_carlo_scorza
+recruit_character = ITA_gian_galeazzo_ciano
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+
+	create_operative_leader = {
+		name = "Maurizio Giglio"
+		GFX = GFX_portrait_maurizio_giglio
+		traits = { }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ITA }
+	}
+}

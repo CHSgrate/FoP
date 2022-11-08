@@ -1,0 +1,20 @@
+
+state={
+	id=2078
+	name="STATE_2078"
+	provinces={
+		8481 13575 
+	}
+	history = {
+                victory_points = { 13575 8 }
+		owner = ZAP
+		add_core_of = ZAP
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=192100
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

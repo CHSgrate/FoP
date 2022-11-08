@@ -1,0 +1,24 @@
+
+state={
+	id=373
+	name="STATE_373"
+	provinces={
+		1243 7000 8232 11817 20682 20685 
+	}
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+		add_core_of = HNV
+        victory_points = {
+            20682 10 #Osnabrück
+        }
+    }
+	manpower=237715
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = large_town
+}

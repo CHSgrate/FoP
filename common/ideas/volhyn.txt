@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+
+VOL_crush_the_bandits = {
+            picture = VOL_crush_the_bandits
+            modifier = {
+                targeted_modifier = {
+                                tag = BUR
+                                attack_bonus_against = 0.1
+			}
+		}
+	}
+}

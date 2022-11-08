@@ -1,0 +1,23 @@
+
+state={
+	id=397
+	name="Chernihiv"
+	provinces={
+		1892 4959 5194 6202 9230 12010 12048 12073 12081 
+	}
+	history = {
+		victory_points = { 12081 20 }
+		victory_points = { 9230 6 }
+		victory_points = { 12048 3 }
+		victory_points = { 4959 5 }
+		owner = PRH
+		add_core_of = PRH
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=364430
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

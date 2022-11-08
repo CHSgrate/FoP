@@ -1,0 +1,22 @@
+
+state={
+	id=744
+	name="STATE_744"
+	history = {
+		owner = GER #ITA
+		add_core_of = ITA
+		add_core_of = TST
+		buildings = {
+			infrastructure = 3
+			7575 = { naval_base = 5 }
+		}
+		victory_points = { 7575 20 }
+	}
+	provinces={
+		7575 
+	}
+	manpower=271689
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

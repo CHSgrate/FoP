@@ -1,0 +1,26 @@
+
+state={
+	id=2097
+	name="STATE_2097"
+	provinces={
+		2532 7149 7423 8437 13043 13189 13280 13391 
+	}
+	history = {
+		victory_points = { 7423 15 }
+                victory_points = { 7149 15 }
+                victory_points = { 13189 10 }
+                victory_points = { 13043 6 }
+				victory_points = { 13391 2 }
+				
+		owner = AFU
+		add_core_of = AFU
+		add_claim_by = LPR
+		buildings = {
+			infrastructure = 3 industrial_complex = 5
+		}
+	}
+	manpower=369421
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

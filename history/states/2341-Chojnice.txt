@@ -1,0 +1,20 @@
+state={
+	id=2341
+	name="STATE_2341"
+	provinces={
+		2095 11099 
+	}
+	history={
+		owner = GER #POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = POM
+		add_core_of = KSH
+  	}
+	manpower=53560
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

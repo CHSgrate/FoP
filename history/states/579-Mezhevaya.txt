@@ -1,0 +1,20 @@
+
+state={
+	id=579
+	name="Mezhova"
+	provinces={
+		945 2390 3179 4202 7508 13148 13305 13505 13590 
+	}
+	history = {
+		victory_points = { 3179 4 }
+		owner = DNI
+		add_core_of = DNI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=101355
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

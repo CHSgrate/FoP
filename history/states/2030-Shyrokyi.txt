@@ -1,0 +1,24 @@
+
+state={
+	id=2030
+	name="STATE_2030"
+
+	history={
+                victory_points = { 13235 10 }
+		owner = AFU
+		add_core_of = AFU
+		add_claim_by = LPR
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		13196 13235 
+	}
+	manpower=46672
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

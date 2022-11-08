@@ -1,0 +1,21 @@
+
+state={
+	id=2076
+	name="Kam'jans'ke"
+	provinces={
+		66 112 254 1147 3324 8675 9304 13290 13317 
+	}
+	history = {
+		victory_points = { 8675 20 }
+                victory_points = { 254 7 }
+		owner = DNI
+		add_core_of = DNI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=430066
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

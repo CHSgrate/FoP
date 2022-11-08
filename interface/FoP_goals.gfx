@@ -1,0 +1,95 @@
+spriteTypes = {
+
+SpriteType = {
+	name = "GFX_On_Our_Own"
+	texturefile = "gfx/interface/goals/AFU_focuses/On_Our_Own.dds"			
+	}
+ SpriteType = {
+	name = "GFX_continue_the_state_of_emergency"
+	texturefile = "gfx/interface/goals/continue_the_state_of_emergency.dds"			
+	}
+ SpriteType = {
+	name = "GFX_Asessing_the_Situation"
+	texturefile = "gfx/interface/goals/AFU_focuses/Asessing_the_Situation.dds"			
+	}
+ SpriteType = {
+	name = "GFX_Local_Arms_Procurement"
+	texturefile = "gfx/interface/goals/AFU_focuses/Local_Arms_Procurement.dds"			
+	}
+ SpriteType = {
+	name = "GFX_Harsh_Quotas"
+	texturefile = "gfx/interface/goals/AFU_focuses/Harsh_Quotas.dds"			
+	}
+SpriteType = {
+	name = "GFX_Military_Administration"
+	texturefile = "gfx/interface/goals/AFU_focuses/Military_Administration.dds"			
+	}
+SpriteType = {
+	name = "GFX_Promise_Reform"
+	texturefile = "gfx/interface/goals/AFU_focuses/Promise_Reform.dds"			
+	}
+SpriteType = {
+	name = "GFX_Crackdown"
+	texturefile = "gfx/interface/goals/AFU_focuses/Crackdown.dds"			
+	}
+SpriteType = {
+	name = "GFX_Mobilize_Our_Forces"
+	texturefile = "gfx/interface/goals/AFU_focuses/Mobilize_Our_Forces.dds"			
+	}
+SpriteType = {
+	name = "GFX_Effective_Training"
+	texturefile = "gfx/interface/goals/AFU_focuses/Effective_Training.dds"			
+	}
+SpriteType = {
+	name = "GFX_Rely_on_Militias"
+	texturefile = "gfx/interface/goals/AFU_focuses/Rely_on_Militias.dds"			
+	}
+SpriteType = {
+	name = "GFX_Reform_the_General_Staff"
+	texturefile = "gfx/interface/goals/AFU_focuses/Reform_the_General_Staff.dds"			
+	}
+SpriteType = {
+	name = "GFX_Azov"
+	texturefile = "gfx/interface/goals/AFU_focuses/Azov.dds"			
+	}
+SpriteType = {
+	name = "GFX_Professional_Army"
+	texturefile = "gfx/interface/goals/AFU_focuses/Professional_Army.dds"			
+	}
+SpriteType = {
+	name = "GFX_Prepare_for_the_Inevitable"
+	texturefile = "gfx/interface/goals/AFU_focuses/Prepare_for_the_Inevitable.dds"			
+	}
+SpriteType = {
+	name = "GFX_Prepare_the_Reserve_Line"
+	texturefile = "gfx/interface/goals/AFU_focuses/Prepare_the_Reserve_Line.dds"			
+	}
+SpriteType = {
+	name = "GFX_And_Now_We_Wait"
+	texturefile = "gfx/interface/goals/AFU_focuses/And_Now_We_Wait.dds"			
+	}
+SpriteType = {
+	name = "GFX_It's_Time_to_Put_an_End_to_the_Separatists"
+	texturefile = "gfx/interface/goals/AFU_focuses/It's_Time_to_Put_an_End_to_the_Separatists.dds"			
+	}
+SpriteType = {
+	name = "GFX_Reaching_Out"
+	texturefile = "gfx/interface/goals/AFU_focuses/Reaching_Out.dds"			
+	}
+SpriteType = {
+	name = "GFX_Reach_Out_to_Zelensky"
+	texturefile = "gfx/interface/goals/AFU_focuses/Reach_Out_to_Zelensky.dds"			
+	}
+SpriteType = {
+	name = "GFX_Reach_Out_to_Poroshenko"
+	texturefile = "gfx/interface/goals/AFU_focuses/Reach_Out_to_Poroshenko.dds"			
+	}
+SpriteType = {
+	name = "GFX_Reach_Out_to_Tyler"
+	texturefile = "gfx/interface/goals/AFU_focuses/Reach_Out_to_Tyler.dds"			
+	}
+SpriteType = {
+	name = "GFX_Reach_Out_to_Avakov"
+	texturefile = "gfx/interface/goals/AFU_focuses/Reach_Out_to_Avakov.dds"			
+	}
+}

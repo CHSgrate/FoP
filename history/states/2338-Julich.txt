@@ -1,0 +1,24 @@
+state={
+	id=2338
+	name="STATE_2338"
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRS
+		add_core_of = RHN
+		victory_points = {
+			12404 5 #Düren
+		}
+		set_demilitarized_zone = yes
+    }
+	provinces={
+		7002 8536 12404 
+	}
+	manpower=122314
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

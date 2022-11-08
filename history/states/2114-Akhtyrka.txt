@@ -1,0 +1,21 @@
+
+state={
+	id=2114
+	name="Okhtyrka"
+	provinces={
+		260 3498 7125 12477 12546 12603 12668 
+	}
+	history = {
+		victory_points = { 7125 10 }
+                victory_points = { 12477 4 }
+		owner = SUM
+		add_core_of = SUM
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=114146
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

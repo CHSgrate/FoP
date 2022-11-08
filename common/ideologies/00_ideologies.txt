@@ -1,0 +1,188 @@
+ideologies = {
+	social_democracy = {
+		types = {
+			sgiYRuCz = {  }
+			agrarianism = {  }
+			populism = {  }
+			europeanism = {  }
+		}
+		dynamic_faction_names = {
+			"faction_social_democracy_peoplesunionofukraine"
+		}
+		color = { 174 14 20 }
+		faction_modifiers = {
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+	
+	oligarchy = {
+		types = {
+			kleptocracy = {  }
+			corporatocracy = {  }
+		}
+		dynamic_faction_names = {
+			"faction_oligarchy_ukrainian_union"
+		}
+		color = { 183 166 80 }
+		faction_modifiers = {
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+	
+		centrism = {
+		types = {
+			centrist = {  }
+		}
+		dynamic_faction_names = {
+			""
+		}
+		color = { 128 128 128 }
+		faction_modifiers = {
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+	
+	conservative_democracy = {
+		types = {
+			national_democracy = {  }
+			monacrhism = {  }
+			christian_democracy = {  }
+		}
+		dynamic_faction_names = {
+			"faction_conservative_democracy_leauge_of_ukrainian_oblasts"
+		}
+		color = { 68 82 139 }
+		faction_modifiers = {
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+	
+	liberal_democracy = {
+		types = {
+			liberalism = {  }
+			classical_liberalism = {  }
+			neoliberalism = {  }
+			market_liberalism = {  }
+			libertarianism = {  }
+			cSyaAgLE = {  }
+		}
+		dynamic_faction_names = {
+			"faction_liberal_democracy_ukrainian_confederation"
+		}
+		color = { 255 194 0 }
+		faction_modifiers = {
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+			join_faction_tension = 1.1
+			guarantee_tension = 1.1
+		}
+		ai_neutral = yes
+	}
+	
+	millitary_junta = {
+		types = {
+			mil_administration = {  }
+			admiralty_council = {  }
+		}
+		dynamic_faction_names = {
+			"faction_millitary_junta_ukrainian_union_og_government_restoration"
+		}
+		color = { 196 192 198 }
+		faction_modifiers = {
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+	
+	radical_nationalism = {
+		types = {
+			militant_nationalism = {  }
+			fascism = {  }
+			ultraconservatism = {  }
+			ultranationalism = {  }
+			nationalsocialism = {  }
+		}
+		dynamic_faction_names = {
+			"faction_nationalism_panukrainian_unity_pact"
+		}
+		color = { 144 18 0 }
+		faction_modifiers = {
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+	
+	
+	
+	radical_socialism = {
+		types = {
+			authoritarian_socialism = {  }
+			communism = {  }
+			national_communism = {  }
+			market_socialism = {  }
+			syndicalism = {  }
+			anarchocommunism = {  }
+			queer_socialism = {  }
+		}
+		dynamic_faction_names = {
+			"faction_radical_socialism_united_ukrainian_communes"
+		}
+		color = { 203 46 38 }
+		faction_modifiers = {
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_puppet = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+}

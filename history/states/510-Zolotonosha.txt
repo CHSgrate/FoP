@@ -1,0 +1,20 @@
+
+state={
+	id=510
+	name="Zolotonosha"
+	provinces={
+		2750 4388 4676 8652 8698 12774 12828 12868 15779 
+	}
+	history = {
+		owner = PLT
+		add_core_of = PLT
+                victory_points = { 8652 6 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=138036
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,421 @@
+focus_tree = {
+	id = DNR_start
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DPR
+		}
+	}
+
+	#Situation in Ukraine
+	focus = {
+		id = dnr_situation_in_ukraine
+		icon = GFX_dnr_situation_in_ukraine-90100
+		x = 15
+		y = 0
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_stability = 0.10
+
+			
+
+			
+		}
+	}
+
+	#Situation in our country
+	focus = {
+		id = dnr_situation_in_our_country
+		icon = GFX_dnr_situation_in_our_country-90101
+		x = 15
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_situation_in_ukraine  }
+		completion_reward = {
+			add_stability = 0.05
+
+			add_war_support = 0.10
+
+			
+		}
+	}
+
+	#Look around us
+	focus = {
+		id = dnr_look_around_us
+		icon = GFX_dnr_look_around_us-90102
+		x = 15
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_situation_in_our_country  }
+		completion_reward = {
+			
+			add_stability = 0.05
+		 
+			country_event = dnr.1
+		}
+	}
+
+	#Look to the west
+	focus = {
+		id = dnr_look_to_west
+		icon = GFX_dnr_look_to_west-90104
+		x = 10
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_look_around_us  }
+		completion_reward = {
+			add_war_support = 0.05			
+		}
+	}
+
+	#Look to east
+	focus = {
+		id = dnr_look_to_east
+		icon = GFX_dnr_look_to_east-90109
+		x = 15
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_look_around_us  }
+		completion_reward = {
+			add_stability = 0.05
+			country_event = dnr.3
+		}
+	}
+
+	#Look to north
+	focus = {
+		id = dnr_look_to_north
+		icon = GFX_dnr_look_to_north-90116
+		x = 20
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_look_around_us  }
+		completion_reward = {
+			add_war_support = 0.05
+
+			add_political_power = 15
+		}
+	}
+
+	#Open old warehouses
+	focus = {
+		id = dnr_open_old_warehouses
+		icon = GFX_dnr_open_old_warehouses-90105
+		x = 10
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = dnr_look_to_west  }
+		completion_reward = {
+			add_war_support = 0.05
+
+			
+
+			unlock_decision_category_tooltip = opening_the_warehouses			
+		}
+	}
+
+	#Strengthern the propaganda
+	focus = {
+		id = dnr_strengthern_the_propaganda
+		icon = GFX_dnr_strengthern_the_propaganda-90106
+		x = 10
+		y = 5
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_open_old_warehouses  }
+		completion_reward = {
+			add_stability = 0.05
+
+			
+
+			add_war_support = 0.05
+
+			add_manpower = 750
+
+			
+		}
+	}
+
+	#Mobilize youth and reserves
+	focus = {
+		id = dnr_mobilize_youth_and_reserves
+		icon = GFX_dnr_mobilize_youth_and_reserves-90108
+		x = 10
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_strengthern_the_propaganda  }
+		completion_reward = {
+			
+			unlock_decision_category_tooltip = mobilize_the_youth_and_reserves
+			
+			add_manpower = 1000
+
+			add_manpower = 2000
+
+			division_template = { 
+
+			name = 'Opolchenci' 
+
+			regiments = { 
+
+			infantry = { 
+
+			x = 0 
+
+			y = 0 
+
+			} 
+
+			infantry = { 
+
+			x = 1 
+
+			y = 0 
+
+			} infantry = { 
+
+			x = 2
+
+			y = 0 
+
+			} 
+
+			infantry = { 
+
+			x = 1
+
+			y = 1
+
+			} } 
+
+			}
+
+		}
+	}
+
+	#Request russian equipment...
+	focus = {
+		id = dnr_requestrussianequipment
+		icon = GFX_dnr_requestrussianequipment-90112
+		x = 15
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_look_to_east  }
+		completion_reward = {
+			unlock_decision_category_tooltip = request_russian_weapons			
+		}
+	}
+
+	#...and volunteers
+	focus = {
+		id = dnr_andvolunteers
+		icon = GFX_dnr_andvolunteers-90113
+		x = 15
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_requestrussianequipment  }
+		completion_reward = {
+			add_manpower = 3000
+
+			unlock_decision_category_tooltip = request_russian_volunteers
+		}
+	}
+
+	#Supplement our corps
+	focus = {
+		id = dnr_supplement_our_corps
+		icon = GFX_dnr_supplement_our_corps-90115
+		x = 15
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_andvolunteers  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 50
+
+			
+
+			
+		}
+	}
+
+	#Remember about "Novorossia"
+	focus = {
+		id = dnr_remember_about_novorossia
+		icon = GFX_dnr_rememberaboutnovorossia-90118
+		x = 20
+		y = 4
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_look_to_north  }
+		completion_reward = {
+			add_political_power = 50
+
+			
+
+			give_guarantee = LPR
+		}
+	}
+
+#End the trade war
+	focus = {
+		id = dnr_end_the_trade_war
+		icon = GFX_DNR_end_the_trade_war-81235
+		x = 20
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_remember_about_novorossia }
+		completion_reward = {
+			add_stability = 0.05
+
+			give_military_access = LPR
+
+			remove_ideas = {
+				the_tariff_war_dnr
+			}
+
+			LNR = {
+				remove_ideas = {
+					the_tariff_war_dnr
+				}
+			}
+		}
+	}
+
+	#Unite with LNR
+	focus = {
+		id = dnr_unite_with_lnr
+		icon = GFX_dnr_unite_with_lnr-90119
+		x = 20
+		y = 6
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_end_the_trade_war  }
+		completion_reward = {
+			annex_country = {
+				transfer_troops = yes
+				target = LPR
+			}
+
+			#set_cosmetic_tag = DNR_NOV
+
+			add_stability = 0.15
+		}
+	}
+
+	#test their melee
+	focus = {
+		id = dnr_prepare_for_war
+		icon = GFX_dnr_prepare_for_war-90120
+		x = 15
+		y = 7
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_mobilize_youth_and_reserves  } prerequisite = { focus = dnr_supplement_our_corps  } prerequisite = { focus = dnr_unite_with_lnr  }
+		completion_reward = {
+			start_border_war = { 
+				change_state_after_war = no 
+
+				attacker = { 
+					state = 168
+
+					num_provinces = 2
+
+					on_win = donbass_war.1 #Event on win 
+
+					on_lose = donbass_war.2 #Event on loss 
+
+					on_cancel = japan_border_conflict.4 #Event on cancel 
+
+				} 
+
+				defender = { 
+					state = 166
+
+					num_provinces = 2
+
+					on_win = japan_border_conflict.3 #Even on win 
+
+					on_lose = japan_border_conflict.2 #Even on loss 
+
+					on_cancel = japan_border_conflict.4 #Event on cancel 
+
+				} 
+			}
+
+			
+		}
+	}
+
+	#Put an end to ukrainian army!
+	focus = {
+		id = dnr_putanendtoukrainianarmy
+		icon = GFX_dnr_putanendtoukrainianarmy-90121
+		x = 15
+		y = 8
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = dnr_prepare_for_war  }
+		completion_reward = {
+			declare_war_on = { 
+
+			target = AFU
+
+			type = annex_everything 
+
+			}
+
+			
+		}
+	}
+
+}

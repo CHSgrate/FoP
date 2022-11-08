@@ -1,0 +1,22 @@
+
+state={
+	id=966
+	name="STATE_966"
+	history = {
+		owner = GER #SOV
+		add_core_of = SOV
+		add_core_of = AZR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TCC
+        victory_points = { 15166 2 }
+    	}
+	provinces={
+		4505 4896 6985 15075 15099 15116 
+	}
+	manpower=103936
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

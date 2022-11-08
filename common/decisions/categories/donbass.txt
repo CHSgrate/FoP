@@ -1,0 +1,86 @@
+afu_mobilization = {
+	icon = GFX_decision_category_mobilization
+	picture = GFX_mobilization
+	visible = {
+	    
+		tag = AFU
+	}
+	allowed = {
+	tag = AFU
+		}
+	
+}
+
+donbass_war = {
+	icon = GFX_decision_category_border_war
+	picture = GFX_Donbass_war
+	visible = {
+	    
+		tag = AFU
+		tag = DPR
+		tag = LPR
+	}
+	allowed = {
+	tag = AFU
+		tag = DPR
+		tag = LPR
+		}
+	
+}
+
+request_russian_weapons = {
+	icon = GFX_decision_category_army_reform
+
+	allowed = {
+		original_tag = DPR
+	}
+
+	visible = {
+		has_completed_focus = dnr_requestrussianequipment
+	}
+
+	priority = 10
+}
+
+request_russian_volunteers = {
+	icon = GFX_decision_category_military_operation
+
+	allowed = {
+		original_tag = DPR
+	}
+
+	visible = {
+		has_completed_focus = dnr_andvolunteers
+	}
+
+	priority = 10
+}
+
+opening_the_warehouses = {
+	icon = GFX_decision_category_generic_military_operations
+
+	allowed = {
+		original_tag = DPR
+	}
+
+	visible = {
+		has_completed_focus = dnr_open_old_warehouses
+	}
+
+	priority = 10
+}
+
+mobilize_the_youth_and_reserves = {
+	icon = GFX_decision_category_generic_civil_support
+
+	allowed = {
+		original_tag = DPR
+	}
+
+	visible = {
+		has_completed_focus = dnr_mobilize_youth_and_reserves
+	}
+}
+
+
+

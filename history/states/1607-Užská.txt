@@ -1,0 +1,25 @@
+state={
+	id=1607
+	name="Perechyn"
+	history={
+		owner = ZAK
+		add_core_of = ZAK
+                victory_points = { 13224 3 }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = WUK
+		add_core_of = CRP
+	}
+	provinces={
+		3497 13161 13178 13224 
+	}
+	manpower=63011
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+}

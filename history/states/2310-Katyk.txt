@@ -1,0 +1,28 @@
+state={
+	id=2310
+	name="Shakhtars'k"
+	provinces={
+		813 1504 9235 9256 13498 13516 13565 13622 
+	}
+	history = {
+		victory_points = { 813 20 }
+                victory_points = { 13516 20 }
+				victory_points = { 13498 5 }
+				victory_points = { 9235 2 }
+				victory_points = { 13622 2 }
+				
+		owner = DPR #SOV
+		add_core_of = DPR
+		add_core_of = AFU
+		buildings = {
+			infrastructure = 3 industrial_complex = 3 arms_factory = 3
+		}
+	}
+			resources = {
+	steel = 43
+}
+	manpower=503100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,31 @@
+ideas = {
+	country = {
+	  PLT_home_of_the_revolution = {
+	  picture = PLT_home_of_the_revolution
+	  modifier = {
+      stability_factor = -0.05
+	  drift_defence_factor = -0.2
+	  
+	     }
+	 }
+	  PLT_unstable_position = {
+	  picture = PLT_unstable_position
+	  modifier = {
+      stability_weekly = -0.01
+	  war_support_factor = -0.17
+	  political_power_gain = -0.15
+	  
+	     }
+	 }
+	
+   
+   }	
+
+ 
+ 
+ 
+ 
+ }
+	
+
+

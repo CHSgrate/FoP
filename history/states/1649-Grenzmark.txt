@@ -1,0 +1,25 @@
+
+state={
+	id=1649
+	name="STATE_1649"
+
+	history={
+		owner = GER #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRS
+		add_core_of = WSP
+		add_core_of = BRN
+		add_core_of = POS
+	}
+
+	provinces={
+		6502 9069 9334 11732 
+	}
+	manpower=114272
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

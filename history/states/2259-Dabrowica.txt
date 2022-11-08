@@ -1,0 +1,24 @@
+
+state={
+	id=2259
+	name="Dubrovycia"
+	provinces={
+		11989 
+	}
+	history={
+		owner = RIV
+		add_core_of = RIV
+                victory_points = { 11989 3 }
+		buildings = {
+			infrastructure = 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower=13041
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

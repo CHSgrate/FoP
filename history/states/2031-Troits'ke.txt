@@ -1,0 +1,21 @@
+
+state={
+	id=2031
+	name="Trojits'ke"
+	provinces={
+		362 520 
+	}
+	history = {
+                victory_points = { 520 6 }
+		owner = AFU
+		add_core_of = AFU
+		add_claim_by = LPR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=15932
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

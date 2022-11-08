@@ -1,0 +1,27 @@
+
+state={
+	id=2608
+	name="STATE_2608"
+
+	history={
+		owner = GER #FRA
+		add_core_of = FRA
+		add_core_of = LOR
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			13059 10 
+		}
+
+	}
+
+	provinces={
+		3333 12984 13013 13059 13205 16096 16295 
+	}
+	manpower=417720
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

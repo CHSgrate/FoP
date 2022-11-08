@@ -1,0 +1,31 @@
+donbass_war = {
+
+	"Time until escalation" = {
+
+		icon = GFX_decision_generic_military
+
+		available = {
+			always = no
+		}
+
+		activation = {
+        has_country_flag = part_of_war
+    }
+	is_good = no
+	days_mission_timeout = 180
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = yes
+		cost = 0
+
+		timeout_effect = { AFU = { declare_War_on = { target = DPR type = annex_everything}}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	}
+

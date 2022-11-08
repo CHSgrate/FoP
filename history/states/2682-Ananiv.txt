@@ -1,0 +1,19 @@
+state={
+	id=2682
+	name="STATE_2682"
+	provinces={
+		2024 13627 13686 
+	}
+	history={
+		owner = ODE #ROM
+		add_core_of = ODE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TSN
+	}
+	manpower=47748
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
