@@ -147,7 +147,7 @@ focus_tree = {
 		focus = AFU_crackdown
 	    }
 		completion_reward = {
-		add_political_power = 15
+		add_political_power = 150
 		}
     }
 	
@@ -274,10 +274,12 @@ focus_tree = {
 		
 		focus = 
 	    }
-		completion_reward = {
-		add_political_power = 15
-		}
+		completion_reward = { swap_ideas = { 
+       remove_idea = AFU_nationalist_agendas 
+        add_idea = AFU_nationalist_agendas_2
+          }
     }
+}
 	
 	#professional army
 	focus = {
