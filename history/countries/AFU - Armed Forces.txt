@@ -25,6 +25,11 @@ set_technology = {
 	naval_bomber1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
+	jet_engines = 1
+	jet_fighter1 = 1
+	jet_tactical_bomber1 = 1
+	jet_strat_bomber1 = 1
+	rocket_artillery = 1
 }
 
 if = {
