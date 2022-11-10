@@ -1,0 +1,938 @@
+focus_tree = {
+	id = zsu-start
+	continuous_focus_position = { x = 0 y = 2000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}
+
+    
+    
+    focus = {
+        id = UKR_maidan4
+        x = 25
+        y = 1
+        #relative_position_id = TAG_focus_name 
+        icon = GFX_other_focus_icon_name
+        #prerequisite =  {}
+        #mutually_exclusive = {  }
+    
+        cost = 8
+        search_filters = { FOCUS_FILTER_POLITICAL }
+    
+        available = {
+           
+        }
+        cancel = {
+           
+        }
+        cancel_if_invalid = no
+        continue_if_invalid = yes
+    
+        ai_will_do = {
+            base = 3
+        }
+    
+        select_effect = {
+           
+        }
+        completion_reward = {
+            add_stability = -0.5
+            add_war_support = -0.3
+        }
+    }
+
+   
+    focus = {
+        id = UKR_tempgovernment
+        x = 3
+        y = 1
+        relative_position_id = UKR_maidan4 
+        icon = GFX_other_focus_icon_name
+        prerequisite = { focus =UKR_maidan4 } 
+        #mutually_exclusive = {  }
+    
+        cost = 8
+        search_filters = { FOCUS_FILTER_POLITICAL }
+    
+        available = {
+           
+        }
+        cancel = {
+           
+        }
+        cancel_if_invalid = no
+        continue_if_invalid = yes
+    
+        ai_will_do = {
+            base = 3
+        }
+    
+        select_effect = {
+           
+        }
+        completion_reward = {
+            set_politics = {
+                ruling_party = centrism
+                elections_allowed = no
+                long_name = "Temporary government"
+	            name = "Tymchasova Vlada"
+            }
+            add_stability = 0.05
+            add_political_power = 50
+
+        }
+    }
+
+
+        focus = {
+            id = UKR_Turchinov
+            x = 0
+            y = 1
+            relative_position_id = UKR_tempgovernment 
+            icon = GFX_other_focus_icon_name
+            prerequisite = {focus =UKR_tempgovernment} 
+            mutually_exclusive = { focus = UKR_radicals  }
+        
+            cost = 8
+            search_filters = { FOCUS_FILTER_POLITICAL }
+        
+            available = {
+               
+            }
+            cancel = {
+               
+            }
+            cancel_if_invalid = no
+            continue_if_invalid = yes
+        
+            ai_will_do = {
+                base = 3
+            }
+        
+            select_effect = {
+               
+            }
+            completion_reward = {
+                retire_character = UKR_Razum
+                recruit_character = UKR_Pastor
+    
+            }
+    }
+
+    focus = {
+        id = UKR_emergency
+        x = 1
+        y = 1
+        relative_position_id = UKR_Turchinov 
+        icon = GFX_other_focus_icon_name
+        prerequisite = {focus =UKR_Turchinov} 
+        #mutually_exclusive = {  }
+    
+        cost = 8
+        search_filters = { FOCUS_FILTER_POLITICAL }
+    
+        available = {
+           
+        }
+        cancel = {
+           
+        }
+        cancel_if_invalid = no
+        continue_if_invalid = yes
+    
+        ai_will_do = {
+            base = 3
+        }
+    
+        select_effect = {
+           
+        }
+        completion_reward = {
+            add_war_support = 0.1
+            add_stability = 0.5
+            add_manpower = 2500
+
+        }
+    }
+
+focus = {
+    id = UKR_cleanstreets
+    x = -1
+    y = 1
+    relative_position_id = UKR_Turchinov 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_Turchinov} 
+    #mutually_exclusive = {  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        add_war_support = 0.1
+        add_stability = 0.5
+        add_manpower = 2500
+
+    }
+}
+
+focus = {
+    id = UKR_absolutepower
+    x = 1
+    y = 1
+    relative_position_id = UKR_cleanstreets 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_cleanstreets} 
+    prerequisite = {focus =UKR_emergency}
+    #mutually_exclusive = {  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_pastor
+    x = -1
+    y = 1
+    relative_position_id = UKR_absolutepower 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_absolutepower} 
+    #mutually_exclusive = {  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_antiterroristoperation
+    x = 2
+    y = 0
+    relative_position_id = UKR_pastor 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_absolutepower} 
+    #mutually_exclusive = {  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+    focus = {
+    id = UKR_radicals
+    x = -4
+    y = 1
+    relative_position_id = UKR_maidan4 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_maidan4} 
+    mutually_exclusive = { focus = UKR_tempgovernment  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+    }
+
+focus = {
+    id = UKR_Sotnyks
+    x = -2
+    y = 1
+    relative_position_id = UKR_radicals 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_radicals} 
+    mutually_exclusive = { focus = UKR_peoplescoup  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_Servantnomore
+    x = 0
+    y = 1
+    relative_position_id = UKR_Sotnyks 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_Sotnyks} 
+    #mutually_exclusive = { UKR_tempgovernment  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_confiscateguns
+    x = 0
+    y = 1
+    relative_position_id = UKR_Servantnomore 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_Servantnomore} 
+    #mutually_exclusive = { UKR_tempgovernment  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_nosecondillovaysk
+    x = 1
+    y = 1
+    relative_position_id = UKR_confiscateguns 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_confiscateguns} 
+    #mutually_exclusive = { UKR_tempgovernment  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_peoplescoup
+    x = 2
+    y = 1
+    relative_position_id = UKR_radicals 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_radicals} 
+    mutually_exclusive = { focus =UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_berkuttrials
+    x = 0
+    y = 1
+    relative_position_id = UKR_peoplescoup 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_peoplescoup} 
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_armthemasses
+    x = 0
+    y = 1
+    relative_position_id = UKR_berkuttrials 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus =UKR_berkuttrials} 
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_peopleslustration
+    x = -1
+    y = 1
+    relative_position_id = UKR_armthemasses 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_armthemasses} 
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_purgeoligarchy
+    x = 0
+    y = 2
+    relative_position_id = UKR_radicals 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_Sotnyks focus = UKR_peoplescoup }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_mobilizemasses
+    x = 0
+    y = 3
+    relative_position_id = UKR_radicals 
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_Servantnomore focus = UKR_berkuttrials }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_taketheregion
+    x = 0
+    y = 2
+    relative_position_id = UKR_maidan4
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_radicals focus = UKR_tempgovernment }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_confiscatefactories
+    x = 0
+    y = 1
+    relative_position_id = UKR_taketheregion
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_taketheregion }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_preparelogistics
+    x = 0
+    y = 1
+    relative_position_id = UKR_confiscatefactories
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_confiscatefactories }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_produceweapons
+    x = 0
+    y = 1
+    relative_position_id = UKR_preparelogistics
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_preparelogistics }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_fromtheashes
+    x = 0
+    y = 1
+    relative_position_id = UKR_produceweapons
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_produceweapons focus = UKR_nosecondillovaysk focus = UKR_pastor focus = UKR_peopleslustration focus = UKR_antiterroristoperation }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_prepareforwar
+    x = -1
+    y = 1
+    relative_position_id = UKR_fromtheashes
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_fromtheashes }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_prepareforwar2
+    x = 1
+    y = 1
+    relative_position_id = UKR_fromtheashes
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_fromtheashes }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+focus = {
+    id = UKR_oldenemy
+    x = 0
+    y = 2
+    relative_position_id = UKR_fromtheashes
+    icon = GFX_other_focus_icon_name
+    prerequisite = {focus = UKR_prepareforwar2 }
+    prerequisite = {focus = UKR_prepareforwar }
+
+    #mutually_exclusive = { UKR_Sotnyks  }
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    available = {
+       
+    }
+    cancel = {
+       
+    }
+    cancel_if_invalid = no
+    continue_if_invalid = yes
+
+    ai_will_do = {
+        base = 3
+    }
+
+    select_effect = {
+       
+    }
+    completion_reward = {
+        
+    }
+}
+
+
+    
+}
