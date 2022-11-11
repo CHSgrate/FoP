@@ -79,12 +79,13 @@ if = {
 		basic_battery = 1
 		basic_torpedo = 1
 	}
-	add_ideas = AFU_disorganised_administration
-	add_ideas = AFU_martial_law
-	add_ideas = industrial_legacy
-	add_ideas = AFU_pro_russian_sentiments
-	add_ideas = AFU_nationalist_agendas 
-	add_ideas = AFU_apathy_of_the_population 
+	}
+add_ideas = AFU_disorganised_administration
+add_ideas = AFU_martial_law
+add_ideas = industrial_legacy
+add_ideas = AFU_pro_russian_sentiments
+add_ideas = AFU_nationalist_agendas 
+add_ideas = AFU_apathy_of_the_population 
 
     set_politics = {	
 	ruling_party = millitary_junta
@@ -102,11 +103,11 @@ if = {
     long_name = "Nackorpus - Azov"
 	name = "National corps - Azov" }
 
-	recruit_character = AFU_Krivonis
-	recruit_character = AFU_Kohan
-	recruit_character = AFU_homa
-	recruit_character = AFU_malko
-	recruit_character = AFU_shapt
+recruit_character = AFU_Krivonis
+recruit_character = AFU_Kohan
+recruit_character = AFU_homa
+recruit_character = AFU_malko
+recruit_character = AFU_shapt
 
 set_popularities = {
 	oligarchy = 5
