@@ -2,6 +2,12 @@
 
 set_research_slots = 3
 
+add_ideas = UKR_the_deluge
+add_ideas = UKR_unpopular_president
+add_ideas = UKR_ruling_party_popularity
+add_ideas = UKR_and_restore_order_we_shall
+add_ideas = UKR_president_office_influence
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

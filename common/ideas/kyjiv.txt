@@ -1,0 +1,40 @@
+ideas = {
+    country = {
+UKR_the_deluge = {
+            picture = UKR_the_deluge
+            modifier = {
+		political_power_gain = -0.5
+		stability_weekly_factor = -0.01
+		war_support_factor = -0.6
+		weekly_manpower = -100
+		consumer_goods_factor = 0.3
+                  }
+            }
+UKR_unpopular_president = {
+	picture = UKR_unpopular_president
+	modifier = {
+		political_power_gain = -0.05
+		stability_factor = -0.05
+		liberal_democracy_drift = -0.01
+		}
+	}
+UKR_ruling_party_popularity = {
+        picture = UKR_ruling_party_popularity
+	modifier = {
+		drift_defence_factor = -0.2
+		}
+	}
+UKR_and_restore_order_we_shall = {
+        picture = UKR_and_restore_order_we_shall
+	modifier = {
+	army_core_attack_factor = 0.1
+		}
+	}
+UKR_president_office_influence = {
+        picture = UKR_president_office_influence
+	modifier = {
+		}
+	}
+	}
+}
+       
