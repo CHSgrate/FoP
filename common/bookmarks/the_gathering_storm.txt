@@ -2,28 +2,79 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 2019.7.1.12
+		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
 		
-		"AFU"={
+		"GER"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = millitary_junta
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
 			}
 		}
 		
-		"DPR"={
+		"ITA"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = oligarchy
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
 			}
 		}
+		
+		"FRA"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"SOV"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"USA"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"POL"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		# minors from DLC ####
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

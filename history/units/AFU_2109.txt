@@ -3,44 +3,81 @@ division_template = {
 	division_names_group = BLR_INF_01
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
 		
 	}
 	support = {
        	engineer = { x = 0 y = 0 }
        	artillery = { x = 0 y = 1 }
-		field_hospital = { x = 0 y = 2 }
-		recon = { x = 0 y = 3 }
+		maintenance_company = { x = 0 y = 2 }
+		mot_recon = { x = 0 y = 3 }
 		signal_company = { x = 0 y = 4 }
 	}
 	
 }
 
 division_template = {
-	name = "dobrovoltsy"
+	name = "Dobrovolchiy Batal'yon"
 	division_names_group = BLR_INF_01
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 0 y = 2 }
-		motorized = { x = 2 y = 0 }
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		
     }
 	
 	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		
+	}
+}
+
+division_template = {
+	name = "Brygada Mors'koyi Pikhoty"
+	division_names_group = BLR_INF_01
+
+		regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		
+	}
+	support = {
        	engineer = { x = 0 y = 0 }
-		military_police = { x = 0 y = 1 }
-		field_hospital = { x = 0 y = 2 }
+       	artillery = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
 		mot_recon = { x = 0 y = 3 }
 		signal_company = { x = 0 y = 4 }
 	}
+}
+division_template = {
+	name = "Povitryanno Desantni Viys'ka"
+	division_names_group = BLR_INF_01
+
+		regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		
 	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		mot_recon = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+	}
+}
 
 #TOTAL DIVISIONS: 13
 units = { 
@@ -49,14 +86,14 @@ units = {
 		name = "36th 'Mykhailo Bilynsky' Marines Brigade" 
 		
 		location = 13742
-		division_template = "Pikhotna Brygada"
+		division_template = "Brygada Mors'koyi Pikhoty"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
 	
 	division= {	
-		name = "93rd 'Kholodny yar' Mechanized Brigade"
+		name = "93rd 'Kholodny yar' Mechanised Brigade"
 		location = 8462
 		division_template = "Pikhotna Brygada"
 		start_experience_factor = 0.4
@@ -65,7 +102,7 @@ units = {
 	}
 	
 	division= {	
-		name = "30th 'Konstyantyn Ostroz'kyj' Mechanized Brigade"
+		name = "30th 'Konstyantyn Ostroz'kyj' Mechanised Brigade"
 		location = 965
 		division_template = "Pikhotna Brygada"
 		start_experience_factor = 0.2
@@ -76,7 +113,7 @@ units = {
 	
 	
 	division= {	
-		name = "57th 'Kost' Hordiyenko Mechanized' Infantry brigade"
+		name = "57th 'Kost' Hordiyenko Mechanised' Infantry brigade"
 		location = 5237
 		division_template = "Pikhotna Brygada"
 		start_experience_factor = 0.2
@@ -85,7 +122,7 @@ units = {
 	}
 
 	division= {	
-		name = "92nd 'Ivan Sirko' Mechanized Brigade"
+		name = "92nd 'Ivan Sirko' Mechanised Brigade"
 		location = 2275
 		division_template = "Pikhotna Brygada"
 		start_experience_factor = 0.2
@@ -94,7 +131,7 @@ units = {
 	}
 
 	division= {	
-		name = "14th 'Roman the Great' Mechanized Brigade"
+		name = "14th 'Roman the Great' Mechanised Brigade"
 		location = 13280
 		division_template = "Pikhotna Brygada"
 		start_experience_factor = 0.2
@@ -103,7 +140,7 @@ units = {
 	}
 
 	division= {	
-		name = "24th 'Korolya Danyla' Mechanized Brigade"
+		name = "24th 'Korolya Danyla' Mechanised Brigade"
 		location = 13451
 		division_template = "Pikhotna Brygada"
 		start_experience_factor = 0.2
@@ -112,7 +149,7 @@ units = {
 	}
 
 	division= {	
-		name = "54th 'Ivan Mazepa' Mechanized Brigade"
+		name = "54th 'Ivan Mazepa' Mechanised Brigade"
 		location = 8361
 		division_template = "Pikhotna Brygada"
 		start_experience_factor = 0.2
@@ -121,7 +158,7 @@ units = {
 	}
 
 	division= {	
-		name = "53th 'Volodymyr Monomach' Mechanized Brigade"
+		name = "53th 'Volodymyr Monomach' Mechanised Brigade"
 		location = 393
 		division_template = "Pikhotna Brygada"
 		start_experience_factor = 0.2
@@ -132,7 +169,7 @@ units = {
 	division= {	
 		name = "80th Air Assault brigade"
 		location = 13235
-		division_template = "Pikhotna Brygada"
+		division_template = "Povitryanno Desantni Viys'ka"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -141,7 +178,7 @@ units = {
 	division= {	
 		name = "Azov regiment"
 		location = 3026
-		division_template = "dobrovoltsy"
+		division_template = "Dobrovolchiy Batal'yon"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -150,7 +187,7 @@ units = {
 	division= {	
 		name = "DUK 'Pravy Sector'"
 		location = 13142
-		division_template = "dobrovoltsy"
+		division_template = "Dobrovolchiy Batal'yon"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.7
 
@@ -159,7 +196,7 @@ units = {
 	division= {	
 		name = "Aydar regiment"
 		location = 2801
-		division_template = "dobrovoltsy"
+		division_template = "Dobrovolchiy Batal'yon"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 

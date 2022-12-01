@@ -7,11 +7,10 @@ state={
 	}
 	history = {
 		victory_points = { 13499 5 }
-		victory_points = { 1452 10 }
-		victory_points = { 8139 5 }
-		owner = LPR #SOV
-		add_core_of = LPR
-		add_core_of = AFU
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = DNB
 		buildings = {
 			infrastructure = 3
 		}

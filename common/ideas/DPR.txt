@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+
+		DPR_clown = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+            stability_factor = -0.1
+
+			}
+		}
+		
+		DPR_FSB = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+			political_power_gain = -0.2
+			
+
+			}
+		}
+		DPR_rivarly = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+            consumer_goods_factor = 0.02
+            }
+		  }
+		}
+	}

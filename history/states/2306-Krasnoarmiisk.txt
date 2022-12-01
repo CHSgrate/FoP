@@ -1,20 +1,18 @@
 
 state={
 	id=2306
-	name="Pokrovs'k"
+	name="STATE_2306"
 	provinces={
 		965 2275 5237 5401 13344 13378 13451 13478 15840 
 	}
 	history = {
-		victory_points = { 15840 7 }
-		victory_points = { 965 2 }
-		victory_points = { 5237 2 }
-		victory_points = { 2275 3 }
-		owner = AFU
-		add_core_of = AFU
-		add_claim_by = DPR
+		victory_points = { 15840 5 }
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = DNB
 		buildings = {
-			infrastructure = 3 arms_factory = 5
+			infrastructure = 3
 		}
 	}
 	manpower=393487

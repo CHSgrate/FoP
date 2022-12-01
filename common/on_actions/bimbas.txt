@@ -12,4 +12,21 @@ on_actions = {
         }
     }
   }
+
+  on_startup = {
+    effect = {
+      DPR = {
+        add_opinion_modifier = { 
+        target = LPR
+        modifier = spirit_of_novorosja 
+      }
+        }
+      LPR = {
+        add_opinion_modifier = { 
+        target = DPR 
+        modifier = spirit_of_novorosja
+         }
+      }
+    }
+  }
 }
