@@ -1,111 +1,102 @@
 division_template = {
-	name = "Brigada Opolcheniya"
+	name = "opolchenie"
 	
 
 	regiments = {
-		motorized = { x = 0 y = 0 }
-		motorized = { x = 0 y = 1 }
-		motorized = { x = 1 y = 0 }
-		artillery_brigade = { x = 2 y = 0 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
-		medium_armor = { x = 2 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-       	artillery = { x = 0 y = 1 }
-		maintenance_company = { x = 0 y = 2 }
-		mot_recon = { x = 0 y = 3 }
-		signal_company = { x = 0 y = 4 }
+       	artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 2 }
 		
 	}
 }
 
-#TOTAL DIVISIONS: 10
+#TOTAL DIVISIONS: 9
 units = {
 
 	division= {	
-		name = "'Kolchuga' (Kalmius) brigade"
-		location = 9256
-		division_template = "Brigada Opolcheniya"
+		name = "Kolchuga brigade"
+		location = 813
+		division_template = "opolchenie"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 
 	}
 	division= {	
-		name = "9th separate 'Mariupol-Hingan' Marine regiment"
-		location = 13798
-		division_template = "Brigada Opolcheniya"
+		name = "Mariupolsko-Hingansky polk"
+		location = 813
+		division_template = "opolchenie"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.3
 
 	}
 	division= {	
-		name = "11th 'Yenakievo-Dunay' Motorized regiment"
-		location = 13498
-		division_template = "Brigada Opolcheniya"
+		name = "Yenakievo Dunayskiy polk"
+		location = 813
+		division_template = "opolchenie"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.4
 
 	}
 	
 	division= {	
-		name = "100th separate Motorized Brigade"
-		location = 13509
-		division_template = "Brigada Opolcheniya"
+		name = "Batalion Somalia"
+		location = 813
+		division_template = "opolchenie"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	
 	division= {	
-		name = "'Somalia' battalion"
-		location = 1709
-		division_template = "Brigada Opolcheniya"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		name = "'Diesel' battalion"
-		location = 13509
-		division_template = "Brigada Opolcheniya"
+		name = "Batalion Khan"
+		location = 813
+		division_template = "opolchenie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
 	}
 	
 	division= {	
-		name = "'Sparta' battalion"
-		location = 1709
-		division_template = "Brigada Opolcheniya"
+		name = "batalion Sparta"
+		location = 813
+		division_template = "opolchenie"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.4
 
 	}
 	
 	division= {	
-		name = "5th 'Aleksandr Zakharchenko' Motorized Brigade"
-		location = 1709
-		division_template = "Brigada Opolcheniya"
+		name = "Zakharchenko brigade"
+		location = 813
+		division_template = "opolchenie"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 
 	}
 	
-    division= {	
-		name = "3rd separate Guards Motorized Brigade"		
-		location = 7322
-		division_template = "Brigada Opolcheniya"
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 813
+		division_template = "opolchenie"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
 	}
 	
 	division= {	
-		name = "1st 'Slavyansk' Guards Motorized rifle Brigade"
-		location = 8754
-		division_template = "Brigada Opolcheniya"
+		name = "Slvayanskaya brigada"
+		location = 813
+		division_template = "opolchenie"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.4
 

@@ -73,11 +73,6 @@ if = {
 		basic_torpedo = 1
 	}
 }
-add_ideas = industrial_legacy
-add_ideas = AFU_apathy_of_the_population
-add_ideas = DPR_clown
-add_ideas = DPR_FSB
-add_ideas = DPR_rivarly
 
  set_politics = {	
 	ruling_party = oligarchy

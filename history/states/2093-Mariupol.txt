@@ -7,15 +7,21 @@ state={
 	}
 	history = {
 		victory_points = { 13845 20 }
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = UKR
-		add_core_of = DNB
+		victory_points = { 13874 2 }
+		owner = AFU
+		add_core_of = AFU
+		add_claim_by = DPR
+		
 		buildings = {
 			infrastructure = 3
+                        industrial_complex = 2
+                        arms_factory = 3
 			13845 = { naval_base = 4 }
 		}
 	}
+	resources = {
+	steel = 45
+}
 	manpower=510425
 	buildings_max_level_factor=1.000
 	state_category=large_city

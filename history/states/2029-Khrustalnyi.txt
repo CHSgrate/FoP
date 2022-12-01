@@ -7,14 +7,16 @@ state={
 	}
 	history = {
 		victory_points = { 13463 2 }
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = UKR
-		add_core_of = DNB
+		owner = LPR #SOV
+		add_core_of = LPR
+		add_core_of = AFU
 		buildings = {
 			infrastructure = 3
 		}
 	}
+			resources = {
+	steel = 4
+}
 	manpower=295057
 	buildings_max_level_factor=1.000
 	state_category=city

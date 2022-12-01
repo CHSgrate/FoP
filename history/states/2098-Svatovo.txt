@@ -1,17 +1,15 @@
 
 state={
 	id=2098
-	name="STATE_2098"
+	name="Svatove"
 	provinces={
 		314 1595 2008 2329 4244 6077 12879 12921 12935 
 	}
 	history = {
-		victory_points = { 12935 1 }
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = UKR
-		add_core_of = SLB
-		add_core_of = DNB
+		victory_points = { 12935 8 }
+		owner = AFU
+		add_core_of = AFU
+		add_claim_by = LPR
 		buildings = {
 			infrastructure = 3
 		}

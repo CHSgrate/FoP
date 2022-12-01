@@ -1,17 +1,15 @@
 
 state={
 	id=2099
-	name="STATE_2099"
+	name="Starobils'k"
 	provinces={
 		393 1495 2524 2633 5825 8792 9024 12843 12890 12906 12927 12950 12990 12999 13077 13157 13227 
 	}
 	history = {
 		victory_points = { 12990 2 }
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = UKR
-		add_core_of = SLB
-		add_core_of = DNB
+		owner = AFU
+		add_core_of = AFU
+		add_claim_by = LPR
 		buildings = {
 			infrastructure = 3
 		}

@@ -1,22 +1,28 @@
 
 state={
 	id=518
-	name="STATE_518"
+	name="Luhans'k"
 	provinces={
 		258 3460 4906 7189 8565 
 	}
 	history = {
 		victory_points = { 8565 20 }
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = UKR
-		add_core_of = DNB
+		owner = LPR #SOV
+		add_core_of = LPR
+		add_core_of = AFU
 		buildings = {
 			infrastructure = 3
 		}
 	}
+	
+		resources = {
+	steel = 20
+	aluminium = 12
+}
+
 	manpower=529716
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000
+
 }

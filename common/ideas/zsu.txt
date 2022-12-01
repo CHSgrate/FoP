@@ -210,12 +210,5 @@ ideas = {
 			
 			}
 		}
-		AFU_nationalist_agendas_2 = {
-			picture = AFU_nationalist_agendas
-			modifier = {
-				army_morale = 2
-
-			}
-		}
     }
 }
