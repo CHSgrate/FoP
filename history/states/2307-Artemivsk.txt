@@ -1,19 +1,17 @@
 
 state={
 	id=2307
-	name="Bakhmut"
+	name="STATE_2307"
 	provinces={
 		3026 8361 13163 13220 
 	}
 	history = {
-                victory_points = { 13220 10 }
-				 victory_points = { 3026 4 }
-				 victory_points = { 13163 7 }
-		owner = AFU
-		add_core_of = AFU
-		add_claim_by = DPR
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = DNB
 		buildings = {
-			infrastructure = 3 industrial_complex = 2
+			infrastructure = 3
 		}
 	}
 	manpower=224528

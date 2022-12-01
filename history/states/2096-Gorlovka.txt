@@ -1,22 +1,20 @@
 
 state={
 	id=2096
-	name="Horlivka"
+	name="STATE_2096"
 	provinces={
 		7322 8896 
 	}
 	history = {
 		victory_points = { 7322 20 }
-		owner = DPR #SOV
-		add_core_of = DPR
-		add_core_of = AFU
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = DNB
 		buildings = {
 			infrastructure = 3
 		}
 	}
-resources = {
-	steel = 45
-}
 	manpower=664949
 	buildings_max_level_factor=1.000
 	state_category=large_city
