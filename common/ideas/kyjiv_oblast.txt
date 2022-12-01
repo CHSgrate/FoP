@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+
+KYI_chernobyl_exclusion_zone = {
+            picture = KYJ_chernobyl_exclusion_zone
+            modifier = {
+                                consumer_goods_factor = 0.02
+				political_power_gain = -0.02
+		}
+	}
+}

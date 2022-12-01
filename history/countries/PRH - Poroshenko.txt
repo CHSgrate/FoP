@@ -2,6 +2,10 @@
 
 set_research_slots = 3
 
+add_ideas = PRH_illegitimate_president
+add_ideas = PRH_cons_forces_union
+add_ideas = PRH_poroh_sins
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

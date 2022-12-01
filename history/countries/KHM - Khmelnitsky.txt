@@ -72,6 +72,7 @@ if = {
 	}
 }
 add_ideas = KHM_good_climate_for_investments
+add_ideas = KHM_nuclear_power_plant
 
 set_politics = {	
 	ruling_party = centrism

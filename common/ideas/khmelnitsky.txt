@@ -14,4 +14,11 @@ KHM_good_climate_for_investments = {
                   }
             }
       }
+KHM_nuclear_power_plant = {
+            picture = KHM_nuclear_power_plant
+            modifier = {
+                                consumer_goods_factor = -0.04
+				stability_factor = 0.1
+		}
+	}
 }
