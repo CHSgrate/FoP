@@ -1,5 +1,7 @@
 ﻿capital = 518
 
+oob = "LPR_2019"
+
 set_research_slots = 3
 
 # Starting tech
@@ -71,6 +73,12 @@ if = {
 		basic_torpedo = 1
 	}
 }
+add_ideas = industrial_legacy
+add_ideas = AFU_apathy_of_the_population
+add_ideas = LPR_second_fiddle
+add_ideas = LPR_rivarly
+add_ideas = LPR_democracy_shirm
+
 
 set_politics = {	
 	ruling_party = oligarchy
