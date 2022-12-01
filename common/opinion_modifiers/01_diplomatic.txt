@@ -1,0 +1,8 @@
+opinion_modifiers = {
+	
+	spirit_of_novorosja = {
+		value = -20
+	}
+	
+
+}

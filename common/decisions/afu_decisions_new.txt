@@ -1,5 +1,6 @@
 
-afu_mobilization = {	
+afu_mobilization = {
+    afu_mobilization_1 = {	
         
 		"Limited mobilization of the reserves"			
 
@@ -9,8 +10,8 @@ afu_mobilization = {
 		available = { has_completed_focus = AFU_mobilize_our_forces		
 		}
 		
-		fire_only_once = yes		
-		days_re_enable = 25	
+		fire_only_once = yes
+        days_remove = 25		
 
 		visible = {	
 		tag = AFU
@@ -22,10 +23,143 @@ afu_mobilization = {
 
 		complete_effect = {
 		    add_manpower = 2000
-			hidden_effect = { add_manpower = 2000
+			hidden_effect = { add_manpower = 1000
 			}
+		set_country_flag = {
+		flag = AFU_1
+		days = 365
+		value = 1
+		}
+	   }
+		ai_will_do = {	
+			factor = 100		
+		}
+   }
+afu_mobilization_2 = {	
+        
+		"Limited mobilization of the reserves"			
+
+		icon = GFX_ZAK_rada_election
+		
+		
+		available = { has_completed = afu_mobilization_1	
+		}
+		
+		fire_only_once = yes
+        days_remove = 45		
+		days_re_enable = 25	
+
+		visible = {	
+		tag = AFU
+		has_country_flag = AFU_1	
+		}		
+
+		cost = 60
+
+
+		complete_effect = {
+		    add_manpower = 5000
+			hidden_effect = { add_manpower = 5
+			}
+		set_country_flag = {
+		flag = AFU_2
+		days = 365
+		value = 1
+		}
 		}
 		ai_will_do = {	
 			factor = 100		
 		}
    }
+afu_mobilization_3 = {	
+        
+		"Limited mobilization of the reserves"			
+
+		icon = GFX_ZAK_rada_election
+		
+		
+		available = { has_completed = afu_mobilization_1	
+		}
+		
+		fire_only_once = yes
+        days_remove = 60		
+		days_re_enable = 25	
+
+		visible = {	
+		tag = AFU
+		has_country_flag = AFU_2	
+		}		
+
+		cost = 60
+
+
+		complete_effect = {
+		    add_manpower = 15000
+		set_country_flag = {
+		flag = AFU_3
+		days = 365
+		value = 1
+		}
+		add_ideas = extensive_conscription
+	}
+		ai_will_do = {	
+			factor = 100		
+		}
+   }
+afu_mobilization_4 = {	
+        
+		"Limited mobilization of the reserves"			
+
+		icon = GFX_ZAK_rada_election
+		
+		
+		available = { has_completed = afu_mobilization_1	
+		}
+		
+		fire_only_once = yes
+        days_remove = 70
+
+		visible = {	
+		tag = AFU
+		has_country_flag = AFU_3	
+		}		
+
+		cost = 60
+
+
+		complete_effect = {
+		    add_manpower = 30000
+		}
+		ai_will_do = {	
+			factor = 100		
+		}
+   }
+afu_mobilization_5 = {	
+        
+		"Limited mobilization of the reserves"			
+
+		icon = GFX_ZAK_rada_election
+		
+		
+		available = { has_completed = afu_mobilization_1	
+		}
+		
+		fire_only_once = yes
+        days_remove = 70
+
+		visible = {	
+		has_war_with = DPR
+		}		
+
+		cost = 5
+
+
+		complete_effect = {
+		    add_manpower = 10000
+		}
+		ai_will_do = {	
+			factor = 100		
+		}
+   }
+  
+}
