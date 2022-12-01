@@ -1,4 +1,19 @@
 division_template = {
+	name = "Teritorialnaya oborona"
+	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+       	artillery = { x = 0 y = 0 }
+		
+	}
+}
+
+division_template = {
 	name = "Brigada Opolcheniya"
 	
 
@@ -20,28 +35,28 @@ division_template = {
 	}
 }
 
-#TOTAL DIVISIONS: 10
+#TOTAL DIVISIONS: 9
 units = {
 
 	division= {	
-		name = "'Kolchuga' (Kalmius) brigade"
-		location = 9256
-		division_template = "Brigada Opolcheniya"
+		name = "15th TD battalion 'SSSR'"
+		location = 8565
+		division_template = "Teritorialnaya oborona"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 
 	}
 	division= {	
-		name = "9th separate 'Mariupol-Hingan' Marine regiment"
-		location = 13798
-		division_template = "Brigada Opolcheniya"
+		name = "12th TD battalion 'Rim'"
+		location = 8565
+		division_template = "Teritorialnaya oborona"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.3
 
 	}
 	division= {	
-		name = "11th 'Yenakievo-Dunay' Motorized regiment"
-		location = 13498
+		name = "6th 'Ataman Platov' separate motorized rifle cossack regiment"
+		location = 6474
 		division_template = "Brigada Opolcheniya"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.4
@@ -49,53 +64,35 @@ units = {
 	}
 	
 	division= {	
-		name = "100th separate Motorized Brigade"
-		location = 13509
-		division_template = "Brigada Opolcheniya"
+		name = "14th TD battalion 'Prizrak'"
+		location = 8565
+		division_template = "Teritorialnaya oborona"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
 	}
 	
 	division= {	
-		name = "'Somalia' battalion"
-		location = 1709
-		division_template = "Brigada Opolcheniya"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		name = "'Diesel' battalion"
-		location = 13509
-		division_template = "Brigada Opolcheniya"
+		name = "17th TD battalion 'Bol'shoy'"
+		location = 7093
+		division_template = "Teritorialnaya oborona"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
 	}
 	
 	division= {	
-		name = "'Sparta' battalion"
-		location = 1709
-		division_template = "Brigada Opolcheniya"
+		name = "16th TD battalion 'Leshii'"
+		location = 6999
+		division_template = "Teritorialnaya oborona"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.4
 
 	}
 	
 	division= {	
-		name = "5th 'Aleksandr Zakharchenko' Motorized Brigade"
-		location = 1709
-		division_template = "Brigada Opolcheniya"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
-
-	}
-	
-    division= {	
-		name = "3rd separate Guards Motorized Brigade"		
-		location = 7322
+		name = "2nd 'Kliment Voroshilov' separate Guards motorized rifle birgade"
+		location = 13463
 		division_template = "Brigada Opolcheniya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -103,8 +100,17 @@ units = {
 	}
 	
 	division= {	
-		name = "1st 'Slavyansk' Guards Motorized rifle Brigade"
-		location = 8754
+		name = "4th separate Guards motorized rifle brigade"
+		location = 13299
+		division_template = "Brigada Opolcheniya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+
+	}
+
+	division= {	
+		name = "7th 'Chistyakhovo' separate Guards motorized rifle brigade"
+		location = 13299
 		division_template = "Brigada Opolcheniya"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.4
