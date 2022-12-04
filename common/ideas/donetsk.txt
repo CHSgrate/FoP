@@ -1,0 +1,56 @@
+ideas = {
+	country = {
+
+	DPR_propaganda = {
+	  	picture = PLT_home_of_the_revolution
+	  
+	modifier = {
+    	army_morale_factor = 0.05
+		drift_defence_factor = 0.3
+		army_core_defence_factor = 0.1
+			}
+	 	}
+
+	DPR_oligarchs = {
+		picture = PLT_home_of_the_revolution
+			
+	modifier = {
+		oligarchy_drift = 0.05
+			}
+		}
+
+	DPR_mobisk1 = {
+		picture = PLT_home_of_the_revolution
+			
+	modifier = {
+		local_resources_factor = -0.2
+		stability_factor = -0.05		
+			}
+		}
+	DPR_mobisk2 = {
+		picture = PLT_home_of_the_revolution
+				
+	modifier = {
+		research_speed_factor = -0.2
+		local_resources_factor = -0.3
+		stability_factor = -0.05
+		civilian_factory_use = 2
+			}
+		}
+	DPR_mobisk3 = {
+		picture = PLT_home_of_the_revolution
+					
+	modifier = {
+		research_speed_factor = -0.5
+		local_resources_factor = -0.5
+		stability_factor = -0.1
+		war_support_weekly_factor = -0.3
+		civilian_factory_use = 5
+		industrial_capacity_factory = -0.3
+			}
+		}			
+	}
+}
+	
+
+

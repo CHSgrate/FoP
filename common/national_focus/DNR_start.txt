@@ -22,9 +22,11 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.10
 
-			
-
-			
+			hidden_effect = {
+				country_event = {
+					id = dnr.10
+				}
+			}
 		}
 	}
 
@@ -40,10 +42,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = dnr_situation_in_ukraine  }
 		completion_reward = {
+			
 			add_stability = 0.05
-
-			add_war_support = 0.10
-
+			add_war_support = 0.05
 			
 		}
 	}
@@ -61,9 +62,8 @@ focus_tree = {
 		prerequisite = { focus = dnr_situation_in_our_country  }
 		completion_reward = {
 			
-			add_stability = 0.05
-		 
-			country_event = dnr.1
+			add_political_power = 150
+			#country_event = dnr.1
 		}
 	}
 
@@ -79,7 +79,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = dnr_look_around_us  }
 		completion_reward = {
-			add_war_support = 0.05			
+			hidden_effect = {
+				country_event = {
+					id = dnr.11
+				}
+			}
 		}
 	}
 
@@ -157,7 +161,13 @@ focus_tree = {
 			add_war_support = 0.05
 
 			add_manpower = 750
-
+			add_ideas = {
+				DPR_propaganda
+			}
+			add_timed_idea = {
+				idea = DPR_oligarchs
+				days = 21
+			}
 			
 		}
 	}
@@ -178,8 +188,6 @@ focus_tree = {
 			unlock_decision_category_tooltip = mobilize_the_youth_and_reserves
 			
 			add_manpower = 1000
-
-			add_manpower = 2000
 
 			division_template = { 
 

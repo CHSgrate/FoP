@@ -1,0 +1,104 @@
+
+mobilize_the_youth_and_reserves = {
+	"mobik 1" = {
+		available = {
+			tag = DPR
+		}
+		visible = {
+			has_completed_focus = dnr_mobilize_youth_and_reserves
+		}
+		fire_only_once = yes
+		days_re_enable = 14
+
+		cost = 30
+
+		complete_effect = {
+			add_manpower = 2000
+		}
+	}
+	"mobik 2" = {
+		available = {
+			tag = DPR
+		}
+		visible = {
+			#has_completed_focus = dnr_mobilize_youth_and_reserves
+		}
+		fire_only_once = yes
+		days_re_enable = 14
+
+		cost = 40
+		
+		complete_effect = {
+			add_timed_idea = { idea = DPR_mobisk1  days = 5 }
+			add_manpower = 5000
+		}
+	}
+	"mobik 3" = {
+		available = {
+			tag = DPR
+		}
+		visible = {
+			has_completed_focus = dnr_mobilize_youth_and_reserves
+		}
+		fire_only_once = yes
+		days_re_enable = 21
+
+		cost = 80
+		
+		complete_effect = {
+			add_timed_idea = { idea = DPR_mobisk1  days = 20 }
+			add_manpower = 10000
+		}
+	}
+	"mobik 4" = {
+		available = {
+			tag = DPR
+		}
+		visible = {
+			#has_completed_focus = dnr_mobilize_youth_and_reserves
+		}
+		fire_only_once = yes
+		days_re_enable = 30
+
+		cost = 150
+		
+		complete_effect = {
+			add_timed_idea = { idea = DPR_mobisk2  days = 14 }
+			add_manpower = 20000
+		}
+	}
+	"mobik 5" = {
+		available = {
+			tag = DPR
+		}
+		visible = {
+			#has_completed_focus = dnr_mobilize_youth_and_reserves
+		}
+		fire_only_once = yes
+		days_re_enable = 60
+
+		cost = 150
+		
+		complete_effect = {
+			add_timed_idea = { idea = DPR_mobisk2  days = 30 }
+			add_manpower = 50000
+		}
+	}
+	"mobik absolute" = {
+		available = {
+			tag = DPR
+		}
+		visible = {
+			has_war = yes
+		}
+		fire_only_once = yes
+		days_re_enable = 60
+
+		cost = 150
+		
+		complete_effect = {
+			add_timed_idea = { idea = DPR_mobisk3  days = 30 }
+			add_manpower = 200000
+		}
+	}
+}
