@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+		KRE_kremechuk_refinery_plant = {
+		picture = KRE_kremenchuk_refinery_plant
+		modifier = {
+			base_fuel_gain = 120
+			fuel_gain = 200
+			max_fuel = 350	
+			}
+
+		}
+		KRE_automotive_capital = {
+		picture = KRE_automotive_capital
+		modifier = {
+			equipment_bonus = {
+				motorized_equipment = {
+						build_cost_ic = -0.15
+						instant = yes
+						}
+					}
+			}
+
+		}
+		KRE_ukrnafta_primacy = {
+		picture = KRE_ukrnafta_primacy
+		modifier = {
+                        stability_factor = -0.1
+			industrial_capacity_factory = 0.05
+			consumer_goods_factor = 0.05
+			}
+
+		}
+	}
+}
