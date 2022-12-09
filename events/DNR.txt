@@ -98,3 +98,271 @@ country_event = {
 		add_political_power = 10
 	}
 }
+
+country_event = {
+	id = dnr.12
+	title = "20 pp"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "20 pp"
+		add_political_power = 5
+	}
+}
+
+country_event = {
+	id = dnr.13
+	title = "20 pp"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "20 pp"
+		add_political_power = 100
+	}
+}
+country_event = {
+	id = dnr.14
+	title = "20 pp"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "20 pp"
+		add_political_power = 100
+	}
+}
+
+country_event = {
+	id = dnr.15
+	title = "tamoznia"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "END TRADE WAR MOTHERFUCKER"
+		set_global_flag  = DNR_tradewar
+		LPR = {
+			country_event = dnr.21
+		}
+	}
+	option = {
+		name = "no"
+
+	}
+}
+
+country_event = {
+	id = dnr.16
+	title = "SOCDEM AAAAAa"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "sas kvo"
+		add_ideas = DPR_coruption
+	}
+	option = {
+		name = "control rinochek"
+		add_timed_idea  = {
+			idea = DPR_problem_with_russian_oligarchs
+			days = 60
+		 }
+	}
+	option = {
+		name = "RUSSIA PLZ HELP ;((("
+		add_ideas = DPR_russian_influance
+	}
+}
+
+country_event = {
+	id = dnr.17
+	title = "SOCDEM AAAAAa"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "federation"
+		add_ideas = DPR_coruption
+		add_timed_idea  = {
+			idea = DPR_crisis_in_administration
+			days = 90
+		}
+		add_ideas = DPR_federalization
+	}
+
+	option = {
+		name = "kamfederation"
+		add_timed_idea  = {
+			idea = DPR_crisis_in_administration
+			days = 90
+		}
+		add_ideas = DPR_konfederation
+	}
+}
+
+country_event = {
+	id = dnr.18
+	title = "lider wybirat"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "HERO OF DPR, ebanyj dushilin"
+		hidden_effect = {
+			add_ideas = DPR_novorosjablyat
+			promote_character = DNR_Pidor
+		}
+	}
+
+	option = {
+		name = "posocnik"
+		hidden_effect = {
+			add_ideas = DPR_novorosjablyat
+			promote_character = LNR_Huylo
+		}
+	}
+
+	option = {
+		name = "Collegial government jopta"
+		hidden_effect = {
+			add_ideas = DPR_novorosjablyat
+			promote_character = NVR_colegial
+			#pls add this shit portrait;((((9
+		}
+	}
+}
+
+country_event = {
+	id = dnr.19
+	title = "WAR SAPORT"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "dick"
+		add_war_support = 0.3
+	}
+}
+
+country_event = {
+	id = dnr.20
+	title = "NOVO RUSSIA SUKA"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "dick"
+		set_cosmetic_tag = NVR_novoros
+	}
+}
+
+country_event = {
+	id = dnr.21
+	title = "hosh obiedinitca suka"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "dick"
+		DPR = {
+		set_global_flag  = DNR_ok
+	}
+	}
+	option = {
+		name = "no"
+		DPR = {
+			country_event = dnr.23
+		}
+	}
+}
+
+country_event = {
+	id = dnr.22
+	title = "hosh obiedinitca"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "dick"
+		set_global_flag  = DNR_unite
+	}
+	option = {
+		name = "no"
+		DPR = {
+			country_event = dnr.23
+		}
+	}
+}
+
+country_event = {
+	id = dnr.22
+	title = "LPR OTKAZALSA BLYAT"
+	desc = "20 pp"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "dick"
+	}
+}

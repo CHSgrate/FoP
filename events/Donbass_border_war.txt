@@ -11,8 +11,7 @@ country_event = {
 	option = {
 		name = "Another victory for us"
 		army_experience = 30
-		air_experience = 15
-		add_war_support = 0.05
+		add_war_support = 0.10
 	}
 }
 
@@ -27,13 +26,12 @@ country_event = {
 	option = {
 		name = "They won't be that lucky next time"
         add_war_support = -0.05
-		add_manpower = -1000
 		army_experience = 15
-		air_experience = 10
-		
-
-		hidden_effect = { 
-			
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.2
+			uses = 1
+			category = land_doctrine
 		}
+		
 	}
 }

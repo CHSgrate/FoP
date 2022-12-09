@@ -35,6 +35,21 @@ characters={
 			expire="2222.1.1.1"
 		}
 	}
+
+	NVR_colegial={
+		name="Collegial government"
+		portraits={
+			civilian={
+				large="GFX_loh"
+			}
+		}
+		country_leader={
+			ideology=oligarchy
+			desc = "POLITICS_LEONID_PASECHNIK_DESC"
+			expire="2222.1.1.1"
+		}
+	}
+	#CORPS COMMANDER BLYAT
 	
 	DNR_lentsov={
 		name="Alexander Lentsov"
@@ -101,6 +116,22 @@ characters={
 			defense_skill=2
 			planning_skill=2
 			logistics_skill=3
+		}
+	}
+	DNR_girkin={
+		name="OMFG ITS A GIRKIN???"
+		portraits={
+			civilian={
+				large="GFX_basurin"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
 		}
 	}
 }

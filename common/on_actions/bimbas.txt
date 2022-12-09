@@ -1,17 +1,34 @@
 on_actions = {
       on_annex = {
-        effect = { 
+          effect = { 
             if = {
 				limit = {
 					original_tag = DPR
 					has_capitulated = yes
 				}
+      }
             AFU = {
-                add_ideas = AFU_bezlad
+                add_ideas = DPR_konfederation
+            }
+                  DPR = {
+              remove_state_claim = 2094
+              remove_state_claim = 2093
+              }
             }
         }
+    
+  
+
+
+  on_annex = {
+      effect = {
+        2093 = {
+          remove_claim_by  = ROOT
+      }
     }
   }
+
+
 
   on_startup = {
     effect = {

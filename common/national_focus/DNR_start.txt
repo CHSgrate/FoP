@@ -45,6 +45,13 @@ focus_tree = {
 			
 			add_stability = 0.05
 			add_war_support = 0.05
+
+			hidden_effect = {
+				country_event = {
+					id = dnr.12 
+					random_days = 10
+				}
+			}
 			
 		}
 	}
@@ -62,7 +69,9 @@ focus_tree = {
 		prerequisite = { focus = dnr_situation_in_our_country  }
 		completion_reward = {
 			
-			add_political_power = 150
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.05
 			#country_event = dnr.1
 		}
 	}
@@ -100,7 +109,7 @@ focus_tree = {
 		prerequisite = { focus = dnr_look_around_us  }
 		completion_reward = {
 			add_stability = 0.05
-			country_event = dnr.3
+			country_event = dnr.13
 		}
 	}
 
@@ -119,6 +128,9 @@ focus_tree = {
 			add_war_support = 0.05
 
 			add_political_power = 15
+			country_event = {
+				id = dnr.14 random_days = 10
+			}
 		}
 	}
 
@@ -215,7 +227,7 @@ focus_tree = {
 
 			y = 0 
 
-			} 
+			}
 
 			infantry = { 
 
@@ -228,7 +240,7 @@ focus_tree = {
 			}
 
 		}
-	}
+   }
 
 	#Request russian equipment...
 	focus = {
@@ -240,13 +252,13 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = dnr_look_to_east  }
+		prerequisite = { focus = dnr_look_to_east }
 		completion_reward = {
 			unlock_decision_category_tooltip = request_russian_weapons			
 		}
 	}
 
-	#...and volunteers
+	#...and Girkin
 	focus = {
 		id = dnr_andvolunteers
 		icon = GFX_dnr_andvolunteers-90113
@@ -259,8 +271,11 @@ focus_tree = {
 		prerequisite = { focus = dnr_requestrussianequipment  }
 		completion_reward = {
 			add_manpower = 3000
-
-			unlock_decision_category_tooltip = request_russian_volunteers
+			recruit_character = DNR_girkin
+			hidden_effect = {
+				load_oob = "DNR_20192"
+			}
+			
 		}
 	}
 
@@ -278,10 +293,21 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_political_power = 50
-
-			
-
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1500
+				producer = DPR
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 100
+				producer = DPR
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 200
+				producer = DPR
+			}
 		}
 	}
 
@@ -298,8 +324,24 @@ focus_tree = {
 		prerequisite = { focus = dnr_look_to_north  }
 		completion_reward = {
 			add_political_power = 50
-
-			
+			hidden_effect = {
+			country_event = {
+				id = dnr.15
+				days = 4
+			}
+			country_event = {
+				id = dnr.16
+				days = 8
+			}
+			country_event = {
+				id = dnr.17
+				days = 12
+			}
+			country_event = {
+				id = dnr.18
+				days = 16
+			}
+		}
 
 			give_guarantee = LPR
 		}
@@ -315,6 +357,13 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+		#	hidden_trigger = {
+				has_global_flag = DNR_tradewar
+				has_global_flag = DNR_ok
+		#	}
+		}
+
 		prerequisite = { focus = dnr_remember_about_novorossia }
 		completion_reward = {
 			add_stability = 0.05
@@ -322,7 +371,7 @@ focus_tree = {
 			give_military_access = LPR
 
 			remove_ideas = {
-				the_tariff_war_dnr
+				 the_tariff_war_dnr
 			}
 
 			LNR = {
@@ -343,14 +392,18 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			has_global_flag = DNR_unite
+		}
 		prerequisite = { focus = dnr_end_the_trade_war  }
 		completion_reward = {
 			annex_country = {
 				transfer_troops = yes
 				target = LPR
 			}
-
-			#set_cosmetic_tag = DNR_NOV
+			hidden_effect = {
+				set_cosmetic_tag = DNR_NOV
+			}
 
 			add_stability = 0.15
 		}
@@ -366,8 +419,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = dnr_mobilize_youth_and_reserves  } prerequisite = { focus = dnr_supplement_our_corps  } prerequisite = { focus = dnr_unite_with_lnr  }
+		prerequisite = { focus = dnr_mobilize_youth_and_reserves  } prerequisite = { focus = dnr_supplement_our_corps  }
 		completion_reward = {
+			hidden_effect = {
+				
+			}
 			start_border_war = { 
 				change_state_after_war = no 
 
@@ -415,15 +471,16 @@ focus_tree = {
 		prerequisite = { focus = dnr_prepare_for_war  }
 		completion_reward = {
 			declare_war_on = { 
-
 			target = AFU
-
 			type = annex_everything 
-
 			}
-
-			
-		}
+				hidden_effect = {
+					add_timed_idea = {  
+					idea =  DPR_shluha
+					days = 7
+						}
+					}			
+				}
+			}
 	}
 
-}

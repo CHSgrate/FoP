@@ -1,56 +1,84 @@
-<<<<<<< HEAD
 ideas = {
 	country = {
 
 		DPR_clown = {
 			picture = AFU_disorganised_administration-1061
 			modifier = {
-            stability_factor = -0.1
-
+            	stability_factor = -0.1
 			}
 		}
 		
 		DPR_FSB = {
 			picture = AFU_disorganised_administration-1061
 			modifier = {
-			political_power_gain = -0.2
-			
-
+				political_power_gain = -0.2
 			}
 		}
 		DPR_rivarly = {
 			picture = AFU_disorganised_administration-1061
 			modifier = {
-            consumer_goods_factor = 0.02
+            	consumer_goods_factor = 0.02
             }
 		  }
-		}
-=======
-ideas = {
-	country = {
-
-		DPR_clown = {
+		DPR_coruption = {
 			picture = AFU_disorganised_administration-1061
 			modifier = {
-            stability_factor = -0.1
-
-			}
+            	consumer_goods_factor = 0.05
+				oligarchy_drift = -0.02
+				political_power_cost = 0.1
+            }	
 		}
-		
-		DPR_FSB = {
+		DPR_problem_with_russian_oligarchs = {
 			picture = AFU_disorganised_administration-1061
 			modifier = {
-			political_power_gain = -0.2
-			
-
-			}
-		}
-		DPR_rivarly = {
-			picture = AFU_disorganised_administration-1061
-			modifier = {
-            consumer_goods_factor = 0.02
+				civilian_factory_use = 3
+				production_speed_buildings_factor = -0.1
             }
-		  }
 		}
->>>>>>> parent of 1c7b3ab (Revert "Merge branch 'main' of https://github.com/CHSgrate/FoP")
+		DPR_russian_influance = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				millitary_junta_drift = 0.01
+				fuel_gain = 150
+				industry_repair_factor = 0.5
+				research_speed_factor = 0.2
+				political_power_gain = -0.3
+            }
+		}
+		DPR_crisis_in_administration = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.3
+            }
+		}
+		DPR_konfederation = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				stability_factor = -0.2
+			}
+		}
+		DPR_federalization = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+		DPR_novorosjablyat = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				justify_war_goal_time = -0.5
+				weekly_manpower = 250
+			}
+		}
+		DPR_shluha = {
+			picture = AFU_disorganised_administration-1061
+			modifier = {
+				offence = -0.5
+				breakthrough_factor = -0.3
+			}
+		}
 	}
+}
