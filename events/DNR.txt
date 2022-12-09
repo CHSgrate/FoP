@@ -166,6 +166,9 @@ country_event = {
 		LPR = {
 			country_event = dnr.21
 		}
+		LPR = {
+			country_event = dnr.22
+		}
 	}
 	option = {
 		name = "no"
@@ -247,15 +250,22 @@ country_event = {
 		name = "HERO OF DPR, ebanyj dushilin"
 		hidden_effect = {
 			add_ideas = DPR_novorosjablyat
-			promote_character = DNR_Pidor
+			promote_character = {
+				character =  DNR_Pidor
+				ideology = kleptocracy
+				}
 		}
 	}
 
 	option = {
 		name = "posocnik"
+
 		hidden_effect = {
+			promote_character = {
+				character = LNR_Huylo
+				ideology = kleptocracy
+				}
 			add_ideas = DPR_novorosjablyat
-			promote_character = LNR_Huylo
 		}
 	}
 
@@ -263,7 +273,10 @@ country_event = {
 		name = "Collegial government jopta"
 		hidden_effect = {
 			add_ideas = DPR_novorosjablyat
-			promote_character = NVR_colegial
+					promote_character = {
+    	character = DNR_colegial
+    	ideology = kleptocracy
+		}
 			#pls add this shit portrait;((((9
 		}
 	}
@@ -352,7 +365,7 @@ country_event = {
 }
 
 country_event = {
-	id = dnr.22
+	id = dnr.23
 	title = "LPR OTKAZALSA BLYAT"
 	desc = "20 pp"
 

@@ -13,6 +13,17 @@ on_actions = {
                   DPR = {
               remove_state_claim = 2094
               remove_state_claim = 2093
+              remove_state_claim = 2306
+              remove_state_claim = 2095
+              remove_state_claim = 2307
+              }
+              LPR = {
+                remove_state_claim = 2097
+                remove_state_claim = 2030
+                remove_state_claim = 2724
+                remove_state_claim = 2099
+                remove_state_claim = 2098
+                remove_state_claim = 2031
               }
             }
         }
