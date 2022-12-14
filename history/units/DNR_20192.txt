@@ -32,14 +32,3 @@ units = {
 
 	}
 }
-units = {
-
-	division= {	
-		name = "Veteran's of Novorosja"
-		location = 9256
-		division_template = "Brigada Igorka"
-		start_experience_factor = 0.8
-		start_equipment_factor = 1.0
-
-	}
-}

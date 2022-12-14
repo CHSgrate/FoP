@@ -36,19 +36,6 @@ characters={
 		}
 	}
 
-	DNR_colegial={
-		name="Collegial government"
-		portraits={
-			civilian={
-				large="GFX_loh"
-			}
-		}
-		country_leader={
-			ideology=oligarchy
-			desc = "POLITICS_LEONID_PASECHNIK_DESC"
-			expire="2222.1.1.1"
-		}
-	}
 	#CORPS COMMANDER BLYAT
 	
 	DNR_lentsov={

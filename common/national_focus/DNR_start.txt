@@ -341,6 +341,10 @@ focus_tree = {
 				id = dnr.18
 				days = 16
 			}
+			country_event = {
+				id = dnr.22
+				days = 30
+			}
 		}
 
 			give_guarantee = LPR
@@ -379,6 +383,11 @@ focus_tree = {
 					the_tariff_war_dnr
 				}
 			}
+			hidden_effect = {
+			LNR = {
+				country_event = dnr.22
+			}
+			}
 		}
 	}
 
@@ -403,6 +412,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				set_cosmetic_tag = DNR_NOV
+				country_event = dnr.20
 			}
 
 			add_stability = 0.15
@@ -428,7 +438,7 @@ focus_tree = {
 				change_state_after_war = no 
 
 				attacker = { 
-					state = 168
+					state = 2096
 
 					num_provinces = 2
 
@@ -441,7 +451,7 @@ focus_tree = {
 				} 
 
 				defender = { 
-					state = 166
+					state = 2307
 
 					num_provinces = 2
 

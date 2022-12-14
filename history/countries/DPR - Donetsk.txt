@@ -96,6 +96,8 @@ set_party_name = { ideology = oligarchy
 	recruit_character = DNR_kozytsin
 	recruit_character = DNR_istrakov
 	recruit_character = DNR_basurin
+	recruit_character = LNR_Huylo
+	recruit_character = DNR_colegial
 
 set_popularities = {
 	oligarchy = 75

@@ -260,22 +260,34 @@ country_event = {
 	option = {
 		name = "posocnik"
 
+		create_country_leader = {
+			name = "Leonid Pasechnik"
+			desc = "POLITICS_LEONID_PASECHNIK_DESC"
+			picture = "GFX_loh"
+			expire = "3000.1.1"
+			ideology = kleptocracy
+			traits = { }
+		}
+
 		hidden_effect = {
-			promote_character = {
-				character = LNR_Huylo
-				ideology = kleptocracy
-				}
 			add_ideas = DPR_novorosjablyat
 		}
 	}
 
 	option = {
 		name = "Collegial government jopta"
+		create_country_leader = {
+			name = "Сollegial Government"
+			desc = "POLITICS_PETER_II_DESC"
+			picture = "Portrait_Yugoslavia_Peter_II.dds"
+			expire = "3000.1.1"
+			ideology = kleptocracy
+			traits = { }
+		}
+
 		hidden_effect = {
 			add_ideas = DPR_novorosjablyat
-					promote_character = {
-    	character = DNR_colegial
-    	ideology = kleptocracy
+
 		}
 			#pls add this shit portrait;((((9
 		}
@@ -335,7 +347,7 @@ country_event = {
 	}
 	option = {
 		name = "no"
-		DPR = {
+		DPR = { 
 			country_event = dnr.23
 		}
 	}
