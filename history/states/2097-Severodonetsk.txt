@@ -19,6 +19,10 @@ state={
 			infrastructure = 3 industrial_complex = 5
 		}
 	}
+	resources = {
+	steel = 17
+	oil = 9
+}
 	manpower=369421
 	buildings_max_level_factor=1.000
 	state_category=city
