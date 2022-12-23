@@ -122,4 +122,83 @@ SpriteType = {
 	name = "GFX_Reach_Out_to_Avakov"
 	texturefile = "gfx/interface/goals/AFU_focuses/Reach_Out_to_Avakov.dds"			
 	}
+
+
+### GREAT DNP EMPIRE OF HOLY DUSHILIN TRUE EMPEROR OF GALACTIC EMPIRE OF DONETSK
+
+SpriteType = {
+	name = "GFX_dnr_putanendtoukrainianarmy"
+	texturefile = "gfx/interface/goals/DPR_focuses/Put_an_End_to_the_Ukrainian_Army.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_prepare_for_war"
+	texturefile = "gfx/interface/goals/DPR_focuses/Test_Their_Melee.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_unite_with_lnr"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_unite_with_lnr.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_end_the_trade_war"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_end_the_trade_war.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_rememberaboutnovorossia"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_rememberaboutnovorossia.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_supplement_our_corps"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_supplement_our_corps.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_andvolunteers"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_andvolunteers.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_requestrussianequipment"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_requestrussianequipment.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_mobilize_youth_and_reserves"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_mobilize_youth_and_reserves.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_strengthern_the_propaganda"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_strengthern_the_propaganda.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_open_old_warehouses"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_open_old_warehouses.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_look_to_north"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_look_to_north.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_look_to_east"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_look_to_east.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_look_to_west"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_look_to_west.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_look_around_us"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_look_around_us.dds"
+}
+
 }

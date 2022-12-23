@@ -59,7 +59,7 @@ focus_tree = {
 	#Look around us
 	focus = {
 		id = dnr_look_around_us
-		icon = GFX_dnr_look_around_us-90102
+		icon = GFX_dnr_look_around_us
 		x = 15
 		y = 2
 		cost = 1
@@ -314,7 +314,7 @@ focus_tree = {
 	#Remember about "Novorossia"
 	focus = {
 		id = dnr_remember_about_novorossia
-		icon = GFX_dnr_rememberaboutnovorossia-90118
+		icon = GFX_dnr_rememberaboutnovorossia
 		x = 20
 		y = 4
 		cost = 2
@@ -351,10 +351,10 @@ focus_tree = {
 		}
 	}
 
-#End the trade war
+#End the trade war 
 	focus = {
 		id = dnr_end_the_trade_war
-		icon = GFX_DNR_end_the_trade_war-81235
+		icon = GFX_dnr_end_the_trade_war-81235
 		x = 20
 		y = 5
 		cost = 3
