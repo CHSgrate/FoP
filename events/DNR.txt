@@ -391,3 +391,19 @@ country_event = {
 		name = "dick"
 	}
 }
+
+country_event = {
+	id = dnr.24
+	title = "Victory!"
+	desc = "Finally, after so much blood of Donbas's finest sons spilled we have finally managed to reunite with our brothers on the other side of the demarcation line! This is the day of jubilation for our young republic!"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Slava Novorossii!"
+	}
+}

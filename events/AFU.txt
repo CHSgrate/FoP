@@ -195,5 +195,23 @@ country_event = {
   }
 }
 
+country_event = {
+	id = afu.9
+	title = "Victory!"
+	desc = "After the brutal battles for Russian occupied cities in so called DPR and LPR territories, we have finally managed to bring a resolve to this bloody conflict in the east once and for all! The separatist forces of Luhansk and Donetsk are finally deffeated. Even with Ukraine in a complete dissaray, the armed forces of Ukraine stood firm and won against all odds. This is truly a great victory for our nation!"
+
+	picture = GFX_And_Now_We_Wait_shine
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Slava Ukrajini, Herojam Slava!"
+		set_cosmetic_tag = AFD_bimbas
+	}
+}
+
+
  
 
