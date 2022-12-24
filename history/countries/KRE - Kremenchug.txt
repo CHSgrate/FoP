@@ -2,6 +2,10 @@
 
 set_research_slots = 3
 
+add_ideas = KRE_kremenchuk_refinery_plant
+add_ideas = KRE_automotive_capital
+add_ideas = KRE_ukrnafta_primacy
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

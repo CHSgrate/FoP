@@ -9,17 +9,18 @@ TER_pagan_fanaticism = {
                                 army_morale_factor = -0.02
                   }
             }
-
+#
 TER_unpopular_movement = {
             picture = TER_unpopular_movement
             modifier = {
                         stability_factor = -0.5
-                                war_support_factor = -0.5
-                                industrial_capacity_factory = -0.2
-                                local_resources_factor = -0.2
-                                political_power_gain = -0.3
+                        war_support_factor = -0.5
+                        industrial_capacity_factory = -0.2
+                        local_resources_factor = -0.2
+                        political_power_gain = -0.3
 
                   }
             }
+#
       }
 }

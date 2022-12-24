@@ -9,7 +9,7 @@ PRH_illegitimate_president = {
 			war_support_factor = -0.6
 		}
 	}
-}
+
 PRH_cons_forces_union = {
             picture = PRH_cons_forces_union
             modifier = {
@@ -18,7 +18,7 @@ PRH_cons_forces_union = {
 			war_support_factor = 0.05
 		}
 	}
-}
+
 PRH_poroh_sins = {
             picture = PRH_poroh_sins
             modifier = {

@@ -7,7 +7,8 @@ VOL_crush_the_bandits = {
                 targeted_modifier = {
                                 tag = BUR
                                 attack_bonus_against = 0.1
+				}
 			}
-		}
+	  	}
 	}
 }

@@ -65,6 +65,18 @@ SpriteType = {
 	 texturefile = "gfx/interface/ideas/chernivtsi-ideas/romanian_millitary_administration.dds"
 	}
 SpriteType = {
+     name = "GFX_idea_VOL_crush_the_bandits"
+	 texturefile = "gfx/interface/ideas/volhynia_ideas/VOL_crush_the_bandits.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_TER_pagan_fanaticism"
+	 texturefile = "gfx/interface/ideas/ternopil_ideas/TER_pagan_fanaticism.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_TER_unpopular_movement"
+	 texturefile = "gfx/interface/ideas/ternopil_ideas/TER_unpopular_movement.dds"
+	}
+SpriteType = {
      name = "GFX_idea_industrial_legacy"
 	 texturefile = "gfx/interface/ideas/zsu-ideas/industrial_legacy.dds"
 	}

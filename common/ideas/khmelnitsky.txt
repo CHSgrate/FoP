@@ -13,7 +13,6 @@ KHM_good_climate_for_investments = {
 
                   }
             }
-      }
 KHM_nuclear_power_plant = {
             picture = KHM_nuclear_power_plant
             modifier = {

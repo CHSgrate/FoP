@@ -8,19 +8,7 @@ ideas = {
 			max_fuel = 350	
 			}
 
-		}
-		KRE_automotive_capital = {
-		picture = KRE_automotive_capital
-		modifier = {
-			equipment_bonus = {
-				motorized_equipment = {
-						build_cost_ic = -0.15
-						instant = yes
-						}
-					}
-			}
-
-		}
+		}						
 		KRE_ukrnafta_primacy = {
 		picture = KRE_ukrnafta_primacy
 		modifier = {
@@ -32,3 +20,8 @@ ideas = {
 		}
 	}
 }
+		
+					
+			
+
+		
