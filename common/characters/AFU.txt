@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=admiralty_council
+			ideology= mil_administration
 			desc = "POLITICS_SERGIY_KRYVONIS_DESC"
 			expire="2222.1.1.1"
 		}
