@@ -79,7 +79,7 @@ focus_tree = {
 	#Look to the west
 	focus = {
 		id = dnr_look_to_west
-		icon = GFX_dnr_look_to_west-90104
+		icon = GFX_dnr_look_to_west
 		x = 10
 		y = 3
 		cost = 1
@@ -99,7 +99,7 @@ focus_tree = {
 	#Look to east
 	focus = {
 		id = dnr_look_to_east
-		icon = GFX_dnr_look_to_east-90109
+		icon = GFX_dnr_look_to_east
 		x = 15
 		y = 3
 		cost = 1
@@ -116,7 +116,7 @@ focus_tree = {
 	#Look to north
 	focus = {
 		id = dnr_look_to_north
-		icon = GFX_dnr_look_to_north-90116
+		icon = GFX_dnr_look_to_north
 		x = 20
 		y = 3
 		cost = 1
@@ -394,7 +394,7 @@ focus_tree = {
 	#Unite with LNR
 	focus = {
 		id = dnr_unite_with_lnr
-		icon = GFX_dnr_unite_with_lnr-90119
+		icon = GFX_dnr_unite_with_lnr
 		x = 20
 		y = 6
 		cost = 3
