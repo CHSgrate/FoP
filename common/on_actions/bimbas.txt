@@ -38,6 +38,54 @@ on_actions = {
       }
     }
   }
+  
+   on_annex = {
+      effect = {
+            if = {
+				limit = {
+					FROM = { tag = AFU }
+		    }
+        DPR = {
+          transfer_state = 2093
+		  transfer_state = 2094
+		  transfer_state = 2306
+		  transfer_state = 2095
+		  transfer_state = 2307
+      }
+	     LPR = {
+          transfer_state = 2097
+		  transfer_state = 2098
+		  transfer_state = 2099
+		  transfer_state = 2030
+		  transfer_state = 2724
+		  transfer_state = 2031
+		  
+      }
+         DPR = {
+				limit = {
+					exists = yes
+				}
+				country_event = { id = dnr.24 days = 1 }
+		    }
+	    }
+    }
+ }
+ 
+ on_annex = {
+      effect = {
+            if = {
+				limit = {
+					FROM = { tag = DPR }
+		    }
+         AFU = {
+				limit = {
+					exists = yes
+				}
+				country_event = { id = afu.9 days = 1 }
+		    }
+	    }
+    }
+ }
 
 
 
