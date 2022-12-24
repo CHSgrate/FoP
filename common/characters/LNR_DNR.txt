@@ -35,6 +35,20 @@ characters={
 			expire="2222.1.1.1"
 		}
 	}
+	
+	LNR_Huy={
+		name="Leonid Pasechnik"
+		portraits={
+			civilian={
+				large="GFX_loh"
+			}
+		}
+		country_leader={
+			ideology=kleptocracy
+			desc = "POLITICS_LEONID_PASECHNIK_DESC"
+			expire="2222.1.1.1"
+		}
+	}
 
 	#CORPS COMMANDER BLYAT
 	
