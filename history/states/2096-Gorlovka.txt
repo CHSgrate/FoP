@@ -12,6 +12,8 @@ state={
 		add_core_of = AFU
 		buildings = {
 			infrastructure = 3
+			7322 = { bunker = 4}
+			8896 = { bunker = 2}
 		}
 	}
 resources = {

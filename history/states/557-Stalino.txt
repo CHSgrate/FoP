@@ -14,7 +14,13 @@ state={
 		add_core_of = AFU
 		
 		buildings = {
-			infrastructure = 3 industrial_complex = 3 arms_factory = 1
+			infrastructure = 3 
+			industrial_complex = 3 
+			arms_factory = 1
+			13509 = { bunker = 5}
+			1709 = { bunker = 6}
+			13226 = { bunker = 2}
+			8020 = { bunker = 1}
 		}
 	}
 resources = {
