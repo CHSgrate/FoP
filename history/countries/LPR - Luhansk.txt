@@ -92,7 +92,7 @@ set_party_name = { ideology = oligarchy
     long_name = "Peace for Luhansk"
 	name = "Mir Luganschine" }
 
-	recruit_character = LNR_Huylo
+	recruit_character = LNR_Huy
 
 set_popularities = {
 	oligarchy = 100
