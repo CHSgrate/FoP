@@ -20,6 +20,21 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Batalyon opolcheniya"
+	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+       	artillery = { x = 0 y = 0 }
+		
+	}
+}
+
 #TOTAL DIVISIONS: 10
 units = {
 
@@ -60,7 +75,7 @@ units = {
 	division= {	
 		name = "'Somalia' battalion"
 		location = 1709
-		division_template = "Brigada Opolcheniya"
+		division_template = "Batalyon opolcheniya"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 
@@ -69,7 +84,7 @@ units = {
 	division= {	
 		name = "'Diesel' battalion"
 		location = 13509
-		division_template = "Brigada Opolcheniya"
+		division_template = "Batalyon opolcheniya"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -78,7 +93,7 @@ units = {
 	division= {	
 		name = "'Sparta' battalion"
 		location = 1709
-		division_template = "Brigada Opolcheniya"
+		division_template = "Batalyon opolcheniya"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.4
 
