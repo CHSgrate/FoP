@@ -126,6 +126,11 @@ set_popularities = {
 	oligarchy = 75
 	millitary_junta = 10
 	radical_socialism = 15
+
+create_faction = Novorossiya
+add_to_faction = DPR
+add_to_faction = LPR
+
 }
 
 
