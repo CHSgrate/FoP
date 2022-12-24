@@ -67,8 +67,8 @@ country_event = { # No Warehouses were found in the area
 
 country_event = {
 	id = dnr.10
-	title = "20 pp"
-	desc = "20 pp"
+	title = dnr.10.t
+	desc = dnr.10.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -77,15 +77,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "20 pp"
+		name = dnr.10.a
 		add_political_power = 20
 	}
 }
 
 country_event = {
 	id = dnr.11
-	title = "20 pp"
-	desc = "20 pp"
+	title = dnr.11.t
+	desc = dnr.11.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -94,15 +94,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "20 pp"
+		name = dnr.11.a
 		add_political_power = 10
 	}
 }
 
 country_event = {
 	id = dnr.12
-	title = "20 pp"
-	desc = "20 pp"
+	title = dnr.12.t
+	desc = dnr.12.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -111,15 +111,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "20 pp"
+		name = dnr.12.a
 		add_political_power = 5
 	}
 }
 
 country_event = {
 	id = dnr.13
-	title = "20 pp"
-	desc = "20 pp"
+	title = dnr.13.t
+	desc = dnr.13.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -128,14 +128,14 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "20 pp"
+		name = dnr.13.a
 		add_political_power = 100
 	}
 }
 country_event = {
 	id = dnr.14
-	title = "20 pp"
-	desc = "20 pp"
+	title = dnr.14.t
+	desc = dnr.14.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -144,15 +144,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "20 pp"
+		name = dnr.15.a
 		add_political_power = 100
 	}
 }
 
 country_event = {
 	id = dnr.15
-	title = "tamoznia"
-	desc = "20 pp"
+	title = dnr.15.t
+	desc = dnr.15.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -161,7 +161,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "END TRADE WAR MOTHERFUCKER"
+		name = dnr.15.a
 		set_global_flag  = DNR_tradewar
 		LPR = {
 			country_event = dnr.21
@@ -171,15 +171,15 @@ country_event = {
 		}
 	}
 	option = {
-		name = "no"
+		name = dnr.15.b
 
 	}
 }
 
 country_event = {
 	id = dnr.16
-	title = "SOCDEM AAAAAa"
-	desc = "20 pp"
+	title = dnr.16.t
+	desc = dnr.16.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -188,26 +188,26 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "sas kvo"
+		name = dnr.16.a
 		add_ideas = DPR_coruption
 	}
 	option = {
-		name = "control rinochek"
+		name = dnr.16.b
 		add_timed_idea  = {
 			idea = DPR_problem_with_russian_oligarchs
 			days = 60
 		 }
 	}
 	option = {
-		name = "RUSSIA PLZ HELP ;((("
+		name = dnr.16.c
 		add_ideas = DPR_russian_influance
 	}
 }
 
 country_event = {
 	id = dnr.17
-	title = "SOCDEM AAAAAa"
-	desc = "20 pp"
+	title = dnr.17.t
+	desc = dnr.17.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -216,7 +216,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "federation"
+		name = dnr.17.a
 		add_ideas = DPR_coruption
 		add_timed_idea  = {
 			idea = DPR_crisis_in_administration
@@ -226,7 +226,7 @@ country_event = {
 	}
 
 	option = {
-		name = "kamfederation"
+		name = dnr.17.b
 		add_timed_idea  = {
 			idea = DPR_crisis_in_administration
 			days = 90
@@ -237,8 +237,8 @@ country_event = {
 
 country_event = {
 	id = dnr.18
-	title = "lider wybirat"
-	desc = "20 pp"
+	title = dnr.18.t
+	desc = dnr.18.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -247,7 +247,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "HERO OF DPR, ebanyj dushilin"
+		name = dnr.18.a
 		hidden_effect = {
 			add_ideas = DPR_novorosjablyat
 			promote_character = {
@@ -258,7 +258,7 @@ country_event = {
 	}
 
 	option = {
-		name = "posocnik"
+		name = dnr.18.b
 
 		create_country_leader = {
 			name = "Leonid Pasechnik"
@@ -275,7 +275,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Collegial government jopta"
+		name = dnr.18.c
 		create_country_leader = {
 			name = "Сollegial Government"
 			desc = "POLITICS_PETER_II_DESC"
@@ -296,8 +296,8 @@ country_event = {
 
 country_event = {
 	id = dnr.19
-	title = "WAR SAPORT"
-	desc = "20 pp"
+	title = dnr.19.t
+	desc = dnr.19.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -306,15 +306,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "dick"
+		name = dnr.19.a
 		add_war_support = 0.3
 	}
 }
 
 country_event = {
 	id = dnr.20
-	title = "NOVO RUSSIA SUKA"
-	desc = "20 pp"
+	title = dnr.20.t
+	desc = dnr.20.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -323,15 +323,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "dick"
+		name = dnr.20.a
 		set_cosmetic_tag = NVR_novoros
 	}
 }
 
 country_event = {
 	id = dnr.21
-	title = "hosh obiedinitca suka"
-	desc = "20 pp"
+	title = dnr.21.t
+	desc = dnr.21.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -340,13 +340,13 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "dick"
+		name = dnr.21.a
 		DPR = {
 		set_global_flag  = DNR_ok
 	}
 	}
 	option = {
-		name = "no"
+		name = dnr.21.b
 		DPR = { 
 			country_event = dnr.23
 		}
@@ -355,8 +355,8 @@ country_event = {
 
 country_event = {
 	id = dnr.22
-	title = "hosh obiedinitca"
-	desc = "20 pp"
+	title = dnr.22.t
+	desc = dnr.22.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -365,11 +365,11 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "dick"
+		name = dnr.22.a
 		set_global_flag  = DNR_unite
 	}
 	option = {
-		name = "no"
+		name = dnr.22.b
 		DPR = {
 			country_event = dnr.23
 		}
@@ -378,8 +378,8 @@ country_event = {
 
 country_event = {
 	id = dnr.23
-	title = "LPR OTKAZALSA BLYAT"
-	desc = "20 pp"
+	title = dnr.23.t
+	desc = dnr.23.d
 
 	picture = GFX_And_Now_We_Wait_shine
 	
@@ -388,22 +388,6 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "dick"
-	}
-}
-
-country_event = {
-	id = dnr.24
-	title = "Victory!"
-	desc = "Finally, after so much blood of Donbas's finest sons spilled we have finally managed to reunite with our brothers on the other side of the demarcation line! This is the day of jubilation for our young republic!"
-
-	picture = GFX_And_Now_We_Wait_shine
-	
-	fire_only_once = yes
-
-	is_triggered_only = yes
-
-	option = {
-		name = "Slava Novorossii!"
+		name = dnr.23.a
 	}
 }
