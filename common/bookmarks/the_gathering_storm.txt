@@ -11,8 +11,14 @@ bookmarks = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = millitary_junta
 			ideas = {
+			AFU_disorganised_administration
+			AFU_nationalist_agendas
+			AFU_martial_law
 			}
 			focuses = {
+			AFU_proclaim_a_state_of_emergency
+			AFU_promise_reform
+			AFU_prepare_for_the_inevitable
 			}
 		}
 		
@@ -20,8 +26,14 @@ bookmarks = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = oligarchy
 			ideas = {
+			DPR_clown
+			DPR_FSB
+			DPR_rivarly
 			}
 			focuses = {
+			dnr_look_to_west
+			dnr_look_to_east
+			dnr_unite_with_lnr
 			}
 		}
 
