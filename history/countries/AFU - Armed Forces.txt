@@ -2,7 +2,7 @@
 
 oob = "AFU_2109"
 
-set_research_slots = 1
+set_research_slots = 0
 
 country_lock_all_division_template = yes
 
