@@ -119,11 +119,12 @@ characters={
 			logistics_skill=3
 		}
 	}
+	
 	DNR_girkin={
-		name="OMFG ITS A GIRKIN???"
+		name="Igor Girkin"
 		portraits={
 			civilian={
-				large="GFX_basurin"
+				large="GFX_dirkin"
 			}
 		}
 		corps_commander={
