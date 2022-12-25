@@ -1,8 +1,12 @@
 spriteTypes = {
 
-   spriteType = {
+    spriteType = {
 		name = "GFX_Papich"
 		texturefile = "gfx/leaders/RIV/Papich.dds"
+	}
+    spriteType = {
+		name = "GFX_dirkin"
+		texturefile = "gfx/leaders/DNR/dirkin.dds"
 	}
 	spriteType = {
 		name = "GFX_adad"
