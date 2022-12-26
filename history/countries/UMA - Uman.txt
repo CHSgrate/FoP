@@ -72,10 +72,25 @@ if = {
 	}
 }
 
+set_politics = {	
+	ruling_party = centrism
+	last_election = "1939.9.12"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_party_name = { ideology = centrism
+    long_name = "Jewish congress of Uman"
+	name = "Ha kongresa Iyudishl Uman" }
+
+	recruit_character = UMA_asman
+
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	oligarchy = 15
+	centrism = 45
+	conservative_democracy = 15
+	radical_nationalism = 25
 }
 
 
