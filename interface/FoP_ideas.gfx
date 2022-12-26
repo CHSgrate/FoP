@@ -37,9 +37,18 @@ SpriteType = {
 	 texturefile = "gfx/interface/ideas/DPR_clown.dds"
 	}	
 	SpriteType = {
+     name = "GFX_idea_LPR_democracy_shirm"
+	 texturefile = "gfx/interface/ideas/lpr_ideas/democracy.dds"
+	}
+	SpriteType = {
+     name = "GFX_idea_LPR_second_fiddle"
+	 texturefile = "gfx/interface/ideas/lpr_ideas/fiddle.dds"
+	}
+	SpriteType = {
      name = "GFX_idea_LPR_rivarly"
 	 texturefile = "gfx/interface/ideas/DPR_rivarly.dds"
 	}
+	
  SpriteType = {
      name = "GFX_idea_CHR_cornered_and_beaten"
 	 texturefile = "gfx/interface/ideas/cherkasy-ideas/CHR_cornered_and_beaten.dds"

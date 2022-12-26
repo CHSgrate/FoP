@@ -126,6 +126,17 @@ SpriteType = {
 
 ### GREAT DNP EMPIRE OF HOLY DUSHILIN TRUE EMPEROR OF GALACTIC EMPIRE OF DONETSK
 
+
+SpriteType = {
+	name = "GFX_dnr_situation_in_ukraine"
+	texturefile = "gfx/interface/goals/DPR_focuses/situation_in_ukraine.dds"
+}
+
+SpriteType = {
+	name = "GFX_dnr_situation_in_our_country"
+	texturefile = "gfx/interface/goals/DPR_focuses/situation_in_our_nation.dds"
+}
+
 SpriteType = {
 	name = "GFX_dnr_putanendtoukrainianarmy"
 	texturefile = "gfx/interface/goals/DPR_focuses/Put_an_End_to_the_Ukrainian_Army.dds"
