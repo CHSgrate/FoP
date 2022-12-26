@@ -4,6 +4,26 @@ spriteTypes = {
      name = "GFX_idea_CHR_allies_in_the_west"
 	 texturefile = "gfx/interface/ideas/cherkasy-ideas/CHR_allies_in_the_west.dds"
 	}
+ SpriteType = {
+     name = "GFX_idea_PRH_sins"
+	 texturefile = "gfx/interface/ideas/PRH_sins.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_UKR_deluge"
+	 texturefile = "gfx/interface/ideas/UKR/deluge.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_UKR_unpopular_president"
+	 texturefile = "gfx/interface/ideas/UKR/unpopular_president.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_UKR_divided_party"
+	 texturefile = "gfx/interface/ideas/UKR/divided_party.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_UKR_and_restore_order_we_shall"
+	 texturefile = "gfx/interface/ideas/UKR/and_restore.dds"
+	}
 SpriteType = {
      name = "GFX_idea_DPR_FSB"
 	 texturefile = "gfx/interface/ideas/DPR_FSB.dds"
