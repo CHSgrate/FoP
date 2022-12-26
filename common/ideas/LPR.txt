@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 ideas = {
 	country = {
 
 		LPR_second_fiddle = {
-			picture = AFU_disorganised_administration-1061
+			picture = fiddle
 			modifier = {
 			 political_power_gain = -0.1
              stability_factor = -0.05
@@ -22,49 +22,12 @@ ideas = {
             }
 		  }
 		 }
-		}
 		
 		LPR_democracy_shirm = {
-			picture = AFU_disorganised_administration-1061
+			picture = democracy
 			modifier = {
 	        political_power_cost = -0.5
 
 			}
 		}
 	}
-=======
-ideas = {
-	country = {
-
-		LPR_second_fiddle = {
-			picture = AFU_disorganised_administration-1061
-			modifier = {
-			 political_power_gain = -0.1
-             stability_factor = -0.05
-			 war_support_factor = -0.05
-
-			}
-		}
-		
-		LPR_rivarly = {
-			picture = AFU_disorganised_administration-1061
-			modifier = {
-            consumer_goods_factor = 0.02
-			on_add = {
-            target = DPR
-            modifier = DPR_rivarly
-            }
-		  }
-		 }
-		}
-		
-		LPR_democracy_shirm = {
-			picture = AFU_disorganised_administration-1061
-			modifier = {
-	        political_power_cost = -0.5
-
-			}
-		}
-	}
->>>>>>> parent of 1c7b3ab (Revert "Merge branch 'main' of https://github.com/CHSgrate/FoP")
-}
