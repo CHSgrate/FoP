@@ -252,6 +252,11 @@ spriteTypes = {
 		name = "GFX_mil"
 		texturefile = "gfx/leaders/ROM/mil.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_Reuven"
+		texturefile = "gfx/leaders/UMA/Reuven.dds"
+	}
 
 
 }
