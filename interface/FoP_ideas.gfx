@@ -3,7 +3,23 @@ spriteTypes = {
  SpriteType = {
      name = "GFX_idea_CHR_allies_in_the_west"
 	 texturefile = "gfx/interface/ideas/cherkasy-ideas/CHR_allies_in_the_west.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_DPR_FSB"
+	 texturefile = "gfx/interface/ideas/DPR_FSB.dds"
 	} 
+SpriteType = {
+     name = "GFX_idea_DPR_rivarly"
+	 texturefile = "gfx/interface/ideas/DPR_rivarly.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_DPR_clown"
+	 texturefile = "gfx/interface/ideas/DPR_clown.dds"
+	}	
+	SpriteType = {
+     name = "GFX_idea_LPR_rivarly"
+	 texturefile = "gfx/interface/ideas/DPR_rivarly.dds"
+	}
  SpriteType = {
      name = "GFX_idea_CHR_cornered_and_beaten"
 	 texturefile = "gfx/interface/ideas/cherkasy-ideas/CHR_cornered_and_beaten.dds"
