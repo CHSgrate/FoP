@@ -1,7 +1,7 @@
 ideas = {
     country = {
 UKR_the_deluge = {
-            picture = UKR_the_deluge
+            picture = UKR_deluge
             modifier = {
 		political_power_gain = -0.5
 		stability_weekly_factor = -0.01
