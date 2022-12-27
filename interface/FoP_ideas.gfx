@@ -38,11 +38,11 @@ SpriteType = {
 	}	
 	SpriteType = {
      name = "GFX_idea_LPR_democracy_shirm"
-	 texturefile = "gfx/interface/ideas/lpr_ideas/democracy.dds"
+	 texturefile = "gfx/interface/ideas/LPR_democracy.dds"
 	}
 	SpriteType = {
      name = "GFX_idea_LPR_second_fiddle"
-	 texturefile = "gfx/interface/ideas/lpr_ideas/fiddle.dds"
+	 texturefile = "gfx/interface/ideas/LPR_second.dds"
 	}
 	SpriteType = {
      name = "GFX_idea_LPR_rivarly"
