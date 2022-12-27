@@ -129,12 +129,12 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_dnr_situation_in_ukraine"
-	texturefile = "gfx/interface/goals/DPR_focuses/situation_in_ukraine.dds"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_situation_in_ukraine.dds"
 }
 
 SpriteType = {
 	name = "GFX_dnr_situation_in_our_country"
-	texturefile = "gfx/interface/goals/DPR_focuses/situation_in_our_country.dds"
+	texturefile = "gfx/interface/goals/DPR_focuses/dnr_situation_in_our_country.dds"
 }
 
 SpriteType = {
