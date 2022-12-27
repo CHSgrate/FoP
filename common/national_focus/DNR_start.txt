@@ -12,7 +12,7 @@ focus_tree = {
 	#Situation in Ukraine
 	focus = {
 		id = dnr_situation_in_ukraine
-		icon = GFX_dnr_situation_in_ukraine-90100
+		icon = GFX_dnr_situation_in_ukraine
 		x = 15
 		y = 0
 		cost = 1
@@ -33,7 +33,7 @@ focus_tree = {
 	#Situation in our country
 	focus = {
 		id = dnr_situation_in_our_country
-		icon = GFX_dnr_situation_in_our_country-90101
+		icon = GFX_dnr_situation_in_our
 		x = 15
 		y = 1
 		cost = 1
