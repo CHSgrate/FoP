@@ -33,7 +33,7 @@ focus_tree = {
 	#Situation in our country
 	focus = {
 		id = dnr_situation_in_our_country
-		icon = GFX_dnr_situation_in_our
+		icon = GFX_dnr_situation_in_our_country
 		x = 15
 		y = 1
 		cost = 1
