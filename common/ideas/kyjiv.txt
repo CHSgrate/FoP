@@ -31,7 +31,7 @@ UKR_and_restore_order_we_shall = {
 		}
 	}
 UKR_president_office_influence = {
-        picture = UKR_president_office_influence
+        picture = UKR_president_office
 	modifier = {
 		}
 	}

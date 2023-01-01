@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 PRH_illegitimate_president = {
-            picture = PRH_illegitimate_president
+            picture = PRH_illegitimate
             modifier = {
 			stability_factor = -0.3
 			political_power_gain = -0.5
@@ -20,7 +20,7 @@ PRH_cons_forces_union = {
 	}
 
 PRH_poroh_sins = {
-            picture = PRH_poroh_sins
+            picture = PRH_sins
             modifier = {
 			drift_defence_factor = -0.3
 		}
