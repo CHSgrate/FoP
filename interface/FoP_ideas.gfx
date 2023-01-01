@@ -8,6 +8,18 @@ spriteTypes = {
      name = "GFX_idea_PRH_sins"
 	 texturefile = "gfx/interface/ideas/PRH_sins.dds"
 	}
+ SpriteType = {
+     name = "GFX_idea_KYI_chornobil"
+	 texturefile = "gfx/interface/ideas/KYI_chornobil.dds"
+	}
+ SpriteType = {
+     name = "GFX_idea_RIV_nuclear_power_plant"
+	 texturefile = "gfx/interface/ideas/RIV_nuclear_power_plant.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_PRH_illegitimate"
+	 texturefile = "gfx/interface/ideas/PRH_illegitimate.dds"
+	}
 SpriteType = {
      name = "GFX_idea_UKR_deluge"
 	 texturefile = "gfx/interface/ideas/UKR/deluge.dds"
@@ -19,6 +31,10 @@ SpriteType = {
 SpriteType = {
      name = "GFX_idea_UKR_divided_party"
 	 texturefile = "gfx/interface/ideas/UKR/divided_party.dds"
+	}
+SpriteType = {
+     name = "GFX_idea_UKR_president_office"
+	 texturefile = "gfx/interface/ideas/UKR/president_office.dds"
 	}
 SpriteType = {
      name = "GFX_idea_UKR_and_restore_order_we_shall"
